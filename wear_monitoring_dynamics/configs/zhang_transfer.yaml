@@ -1,0 +1,21 @@
+study_id: zhang_transfer_20260922
+monitor:
+  architecture: zhang
+zhang:
+  upstream_commit: 054ec32111b1efc63eabb6016485e1543095b736
+  physics: false
+  alpha: 1.0
+  beta: 0.75
+training:
+  protocol: zhang_paired
+  epochs: 500
+  batch_size: 16
+  learning_rate: 0.003
+  warmup_lr: 0.01
+  final_lr: 0.0001
+  lr_F: 0.001
+  lr_warmup_epochs: 10
+  pretrain_learning_rate: 0.001
+  record_all_epoch_splits: true
+  final_full_curve: true
+  save_final_epoch_checkpoints: true

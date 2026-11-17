@@ -1,0 +1,79 @@
+{
+
+  "profiles": [
+
+    {
+
+      "batch": 32,
+
+      "seconds": 0.05782349989749491,
+
+      "windows_per_second": 553.4082173636525,
+
+      "peak_MB": 1570.92236328125
+
+    },
+
+    {
+
+      "batch": 64,
+
+      "seconds": 0.1110880000051111,
+
+      "windows_per_second": 576.1198328987415,
+
+      "peak_MB": 3014.25244140625
+
+    },
+
+    {
+
+      "batch": 128,
+
+      "seconds": 0.2174144999589771,
+
+      "windows_per_second": 588.737181853794,
+
+      "peak_MB": 5919.240234375
+
+    },
+
+    {
+
+      "batch": 256,
+
+      "seconds": 4.21968389977701,
+
+      "windows_per_second": 60.668051465544224,
+
+      "peak_MB": 11734.33740234375
+
+    },
+
+    {
+
+      "batch": 512,
+
+      "oom": true
+
+    }
+
+  ],
+
+  "selected_batch": 128,
+
+  "train_records": 71,
+
+  "train_windows": 5325,
+
+  "full_training_epoch_seconds": 9.433282300131395,
+
+  "estimated_100_member_100_epoch_hours": 26.203561944809433,
+
+  "selection": "maximum measured throughput; no held-out error inspected",
+
+  "dtype": "float32",
+
+  "deterministic": true
+
+}

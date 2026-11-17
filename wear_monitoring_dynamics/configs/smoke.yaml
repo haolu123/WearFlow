@@ -1,0 +1,14 @@
+study_id: smoke_v1
+experiment:
+  name: smoke_sct_both_joint
+  role: smoke
+  fold: fold_a
+  holdout: 8
+dynamics:
+  mode: joint_scratch
+  pretrain_epochs: 3
+loss:
+  derivative_weight: 0.1
+  forecasting_weight: 1.0
+training:
+  epochs: 6

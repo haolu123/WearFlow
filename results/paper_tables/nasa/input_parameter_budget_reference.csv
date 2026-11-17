@@ -1,0 +1,22 @@
+方法,输入,参数,实际预算
+
+CT100,工况＋时间,2497,100轮，5seed/折；历史checkpoint重放
+
+sensor12_100,工况＋时间＋12维电流,3265,100轮，5seed/折；历史checkpoint重放
+
+A 独立monitor＋ODE,monitor同上；rate用VB＋工况,3265＋1281＝4546,monitor100轮＋独立ODE500轮
+
+B/C/D 适配,与A相同；C/D含未来VB损失,4546；B/C冻结rate,共同A起点再100轮；B只当前，C冻结ODE，D两支更新
+
+Kim TF ensemble,6通道raw，75窗口/cut，历史平滑,428901/成员 × 10＝4289010/ensemble,2fold×5ensemble×10成员×100轮；batch128，4200次更新/成员(A)、5100次(B)
+
+Chen PIDGGCN,top12＋工况时间＋因果历史图,46785（completed.json核验）,2版本×24运行×100轮，RMSprop；原5000轮schedule压缩披露
+
+Zhang PINN,统一top12适配,见zhang子报告,新增24×100轮
+
+GPR / SVR,统一17维特征,非固定神经网络参数数,训练内拟合/内层选参，确定性
+
+Sun PI-GPR,统一sensor及工况时间＋HI,物理均值＋精确GP,3375候选×14内层，2外层拟合，确定性
+
+Sun LSTM模块,共同monitor历史估计VB,见sun_lstm子报告,10×100轮，非原完整ResNet系统
+

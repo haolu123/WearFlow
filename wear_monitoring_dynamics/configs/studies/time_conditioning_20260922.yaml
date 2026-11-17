@@ -1,0 +1,16 @@
+study_id: time_conditioning_20260922
+family: explicit
+seeds: [0, 1, 2, 3, 4]
+folds: [fold_a, fold_b]
+inner_seed: 0
+variants:
+  - experiment: {name: time_ct_mlp}
+    monitor: {architecture: mlp, inputs: [condition, time]}
+  - experiment: {name: time_sct_mlp}
+    monitor: {architecture: mlp, inputs: [sensor, condition, time]}
+  - experiment: {name: time_sct_encoded}
+    monitor: {architecture: time_encoded, inputs: [sensor, condition, time]}
+  - experiment: {name: time_sct_film}
+    monitor: {architecture: film, inputs: [sensor, condition, time]}
+  - experiment: {name: time_sct_attention}
+    monitor: {architecture: sensor_attention, inputs: [sensor, condition, time]}

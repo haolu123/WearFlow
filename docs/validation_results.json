@@ -1,0 +1,27 @@
+{
+  "fold_a\\final\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_a\\inner_1\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_a\\inner_2\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_a\\inner_3\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_a\\inner_4\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_a\\inner_5\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_a\\inner_7\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_a\\inner_8\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_b\\final\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_b\\inner_10\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_b\\inner_11\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_b\\inner_12\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_b\\inner_13\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_b\\inner_14\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_b\\inner_16\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "fold_b\\inner_9\\arrays.npz": "valid inputs, targets and pairs match research export",
+  "nasa_three_epoch_smoke": {
+    "ct": true,
+    "monitor": true,
+    "ode": true
+  },
+  "nasa_parent_reload_and_future_gradient": true,
+  "stiehl_18_splits_and_horizons_match": true,
+  "stiehl_one_signal_extraction_match": true,
+  "stiehl_signal_fs": 25000.00117296523
+}

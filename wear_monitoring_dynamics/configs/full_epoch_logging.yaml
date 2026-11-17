@@ -1,0 +1,4 @@
+training:
+  record_all_epoch_splits: true
+  final_full_curve: true
+  save_final_epoch_checkpoints: true

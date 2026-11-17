@@ -1,0 +1,7 @@
+study_id: zhang_transfer_20260922
+family: zhang_transfer
+folds: [fold_a, fold_b]
+seeds: [0, 1, 2, 3, 4]
+inner_seed: 0
+derivative_weight: 0.1
+forecasting_weight: 1.0

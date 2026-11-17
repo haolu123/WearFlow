@@ -1,0 +1,11 @@
+study_id: core_epochlog_20260921
+description: Full 24-configuration study with post-update train/validation/outer-test diagnostics every epoch.
+input_modes: [t, ct, s, sc, st, sct]
+coupled_input_modes: [ct, sct]
+auxiliaries: [derivative, forecasting, both]
+dynamics_modes: [frozen, joint_pretrained, joint_scratch]
+seeds: [0, 1, 2, 3, 4]
+folds: [fold_a, fold_b]
+inner_seed: 0
+derivative_weight: 0.1
+forecasting_weight: 1.0

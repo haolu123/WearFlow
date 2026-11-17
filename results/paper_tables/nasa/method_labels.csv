@@ -1,0 +1,38 @@
+method,display_name
+
+CT100,Condition/time MLP100
+
+Kim_TF_cubic_mean_NASA,Kim et al. (2026) cubic mean (VB extension)
+
+Kim_TF_raw_ensemble,Kim et al. (2026) raw Transformer ensemble
+
+Zhang_PINN_top12,Zhang PINN (NASA adaptation)
+
+chen2025_pidggcn_causal_calculus_corrected,Chen et al. (2025) PIDGGCN (corrected)
+
+chen2025_pidggcn_causal_paper_printed,Chen et al. (2025) PIDGGCN (printed)
+
+fusion_A,A: independent monitor + ODE + fusion
+
+fusion_B,B: current-only adaptation + fusion
+
+fusion_C,C: frozen-ODE adaptation + fusion
+
+fusion_D,Proposed D: joint adaptation + fusion
+
+gpr,GPR
+
+linear2_nonnegative_sensor100,Two-point nonnegative linear
+
+linear2_sensor100,Two-point linear
+
+persistence_sensor100,Persistence
+
+sensor12_100,Sensor top12 MLP100
+
+sun2020_lstm_module,Sun et al. (2020) LSTM module
+
+sun_pigpr_causal_nasa,Sun et al. (2024) PI-GPR (causal adaptation)
+
+svr,SVR
+

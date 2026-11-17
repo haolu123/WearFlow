@@ -1,0 +1,1906 @@
+[
+  {
+    "file": "wear_monitoring_dynamics/config.py",
+    "source_group": "NASA project",
+    "source_name": "config.py",
+    "original_sha256": "aebd9499a7c7340d9ed9d5de15d7e38c09239affe5f71ce018a106c12ad7ba6b",
+    "release_sha256": "aebd9499a7c7340d9ed9d5de15d7e38c09239affe5f71ce018a106c12ad7ba6b"
+  },
+  {
+    "file": "wear_monitoring_dynamics/requirements.txt",
+    "source_group": "NASA project",
+    "source_name": "requirements.txt",
+    "original_sha256": "1fed790cf5d55c02d8a282e36663589e134059d7aaa61b69c305be27d17ee2a1",
+    "release_sha256": "1fed790cf5d55c02d8a282e36663589e134059d7aaa61b69c305be27d17ee2a1"
+  },
+  {
+    "file": "wear_monitoring_dynamics/study.py",
+    "source_group": "NASA project",
+    "source_name": "study.py",
+    "original_sha256": "0accd89920b0d9a5019a540f0442474899a1e76ff67fa42accc7f9727739bb17",
+    "release_sha256": "0accd89920b0d9a5019a540f0442474899a1e76ff67fa42accc7f9727739bb17"
+  },
+  {
+    "file": "wear_monitoring_dynamics/__init__.py",
+    "source_group": "NASA project",
+    "source_name": "__init__.py",
+    "original_sha256": "48fa4af025cf00a2e1013e0dbf20abd655db6952a64e27bb03bbcb8eaf7082cc",
+    "release_sha256": "48fa4af025cf00a2e1013e0dbf20abd655db6952a64e27bb03bbcb8eaf7082cc"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/default.yaml",
+    "source_group": "NASA project",
+    "source_name": "default.yaml",
+    "original_sha256": "af359676adc94d7b4c57fb1c5f652a13d313452406479b28d626ce32657428d4",
+    "release_sha256": "af359676adc94d7b4c57fb1c5f652a13d313452406479b28d626ce32657428d4"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/full_epoch_logging.yaml",
+    "source_group": "NASA project",
+    "source_name": "full_epoch_logging.yaml",
+    "original_sha256": "0d1c78337b3c268d2fa4a04f685b0c1d9ef882b2bdd74e60a67a341ce1c50a66",
+    "release_sha256": "0d1c78337b3c268d2fa4a04f685b0c1d9ef882b2bdd74e60a67a341ce1c50a66"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/smoke.yaml",
+    "source_group": "NASA project",
+    "source_name": "smoke.yaml",
+    "original_sha256": "f6283e119bb71b45e24c2843283e95d8d200409c92c356fff3c96d948d6353be",
+    "release_sha256": "f6283e119bb71b45e24c2843283e95d8d200409c92c356fff3c96d948d6353be"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/time_conditioning.yaml",
+    "source_group": "NASA project",
+    "source_name": "time_conditioning.yaml",
+    "original_sha256": "9bafda7537699fa45016f270f826b2d2b505881106445af0faddf4a50e9ca3b4",
+    "release_sha256": "9bafda7537699fa45016f270f826b2d2b505881106445af0faddf4a50e9ca3b4"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/zhang_transfer.yaml",
+    "source_group": "NASA project",
+    "source_name": "zhang_transfer.yaml",
+    "original_sha256": "329858d3bea12c986988329e36e16e5de3ca0120d9f472d202f6b1a1cc120271",
+    "release_sha256": "329858d3bea12c986988329e36e16e5de3ca0120d9f472d202f6b1a1cc120271"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/studies/core.yaml",
+    "source_group": "NASA project",
+    "source_name": "core.yaml",
+    "original_sha256": "0cfb84f94ac256c3d77e62dddb945ef2204e8c568784cda001fb7bd008293936",
+    "release_sha256": "0cfb84f94ac256c3d77e62dddb945ef2204e8c568784cda001fb7bd008293936"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/studies/core_epochlog_20260921.yaml",
+    "source_group": "NASA project",
+    "source_name": "core_epochlog_20260921.yaml",
+    "original_sha256": "f4440525839fa8691ecd150296263f40daea2a749005f34a482ad4ace06471f2",
+    "release_sha256": "f4440525839fa8691ecd150296263f40daea2a749005f34a482ad4ace06471f2"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/studies/core_epochlog_qc_20260921.yaml",
+    "source_group": "NASA project",
+    "source_name": "core_epochlog_qc_20260921.yaml",
+    "original_sha256": "b8e3b3b00e1b1adeadc9de4dc90ff1b4033a977b6d03da666e958c3fe67479b3",
+    "release_sha256": "b8e3b3b00e1b1adeadc9de4dc90ff1b4033a977b6d03da666e958c3fe67479b3"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/studies/time_conditioning_20260922.yaml",
+    "source_group": "NASA project",
+    "source_name": "time_conditioning_20260922.yaml",
+    "original_sha256": "c5b19863f459099a70509528ab3e666647ae0ada3781efb0d31b786fcad9f9bb",
+    "release_sha256": "c5b19863f459099a70509528ab3e666647ae0ada3781efb0d31b786fcad9f9bb"
+  },
+  {
+    "file": "wear_monitoring_dynamics/configs/studies/zhang_transfer_20260922.yaml",
+    "source_group": "NASA project",
+    "source_name": "zhang_transfer_20260922.yaml",
+    "original_sha256": "a9d5fb3e69a089a061895cf57071d015f6e3df614095a6d8337755f5840ce4a3",
+    "release_sha256": "a9d5fb3e69a089a061895cf57071d015f6e3df614095a6d8337755f5840ce4a3"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/current_processing.py",
+    "source_group": "NASA project",
+    "source_name": "current_processing.py",
+    "original_sha256": "1766fecb9161689250c4be67abd554f6cd3fbe138bc0ed27be08d6671874dddb",
+    "release_sha256": "1766fecb9161689250c4be67abd554f6cd3fbe138bc0ed27be08d6671874dddb"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/datasets.py",
+    "source_group": "NASA project",
+    "source_name": "datasets.py",
+    "original_sha256": "b848e09b53ecb3d0dbe77c87568e8757125b3ffa343324dde0103c2bed8b1b59",
+    "release_sha256": "b848e09b53ecb3d0dbe77c87568e8757125b3ffa343324dde0103c2bed8b1b59"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/features.py",
+    "source_group": "NASA project",
+    "source_name": "features.py",
+    "original_sha256": "4aef281a59fcff9b1f8dd8aefcfc6fb69cf7165cd724e361ec8123857f8c06d4",
+    "release_sha256": "4aef281a59fcff9b1f8dd8aefcfc6fb69cf7165cd724e361ec8123857f8c06d4"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/feature_archive.py",
+    "source_group": "NASA project",
+    "source_name": "feature_archive.py",
+    "original_sha256": "63d1bc420cc4b903a281e9949b50efdf588b1bb210817d3cae292edafa3777bc",
+    "release_sha256": "63d1bc420cc4b903a281e9949b50efdf588b1bb210817d3cae292edafa3777bc"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/history.py",
+    "source_group": "NASA project",
+    "source_name": "history.py",
+    "original_sha256": "2e1bdda4e44cdcc355368dbde48de4054adf92f03224679fe83652e56df436ed",
+    "release_sha256": "2e1bdda4e44cdcc355368dbde48de4054adf92f03224679fe83652e56df436ed"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/monitor_batch.py",
+    "source_group": "NASA project",
+    "source_name": "monitor_batch.py",
+    "original_sha256": "3aa5808ded757d89935482702caf8be1bd66c2948b5d469da8b2c58d563adba3",
+    "release_sha256": "3aa5808ded757d89935482702caf8be1bd66c2948b5d469da8b2c58d563adba3"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/preprocessing.py",
+    "source_group": "NASA project",
+    "source_name": "preprocessing.py",
+    "original_sha256": "120e772053a910e6f1cc5dd27332740c8b4b8e0760dc8659aca3ea93a2baf518",
+    "release_sha256": "120e772053a910e6f1cc5dd27332740c8b4b8e0760dc8659aca3ea93a2baf518"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/records.py",
+    "source_group": "NASA project",
+    "source_name": "records.py",
+    "original_sha256": "0ad0a7e0bc116bb972ca779c83e188ed817b27eae3a96a8565e888e6b02b686e",
+    "release_sha256": "0ad0a7e0bc116bb972ca779c83e188ed817b27eae3a96a8565e888e6b02b686e"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/sensor_quality.py",
+    "source_group": "NASA project",
+    "source_name": "sensor_quality.py",
+    "original_sha256": "d11e6cbcc4a54aea3b4ff753fa34336da34ca8079ed82f084cd20d72617d4de1",
+    "release_sha256": "d11e6cbcc4a54aea3b4ff753fa34336da34ca8079ed82f084cd20d72617d4de1"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/sensor_transforms.py",
+    "source_group": "NASA project",
+    "source_name": "sensor_transforms.py",
+    "original_sha256": "6754ffb3a43de04c936d4b97fc067ae841551abfa5f9bc6aa6f94b96f890e6e5",
+    "release_sha256": "6754ffb3a43de04c936d4b97fc067ae841551abfa5f9bc6aa6f94b96f890e6e5"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/splits.py",
+    "source_group": "NASA project",
+    "source_name": "splits.py",
+    "original_sha256": "2b35bdc09f81e56566b07b37a2f25885f74012419bbc0aa3c0c1dd4b199ea535",
+    "release_sha256": "2b35bdc09f81e56566b07b37a2f25885f74012419bbc0aa3c0c1dd4b199ea535"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/subsets.py",
+    "source_group": "NASA project",
+    "source_name": "subsets.py",
+    "original_sha256": "d7fd37ee28f68309398d294c224c97b2410c0547b46d91d9c35da03e2731a03d",
+    "release_sha256": "d7fd37ee28f68309398d294c224c97b2410c0547b46d91d9c35da03e2731a03d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/data/__init__.py",
+    "source_group": "NASA project",
+    "source_name": "__init__.py",
+    "original_sha256": "b0641b5b0a739a75026b1d7c6a090e920f2fdb83abb94da65f5586c58bf218d4",
+    "release_sha256": "b0641b5b0a739a75026b1d7c6a090e920f2fdb83abb94da65f5586c58bf218d4"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/bootstrap.py",
+    "source_group": "NASA project",
+    "source_name": "bootstrap.py",
+    "original_sha256": "eb6235f0b4ece6d17ea693100adf724e96461cf63d583987b3ec9aa0541f858b",
+    "release_sha256": "eb6235f0b4ece6d17ea693100adf724e96461cf63d583987b3ec9aa0541f858b"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/derivative.py",
+    "source_group": "NASA project",
+    "source_name": "derivative.py",
+    "original_sha256": "20caec30622ff976402790898d5e7a0bfb530c90097747edf1e04e218c355a98",
+    "release_sha256": "20caec30622ff976402790898d5e7a0bfb530c90097747edf1e04e218c355a98"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/epoch_logging.py",
+    "source_group": "NASA project",
+    "source_name": "epoch_logging.py",
+    "original_sha256": "3fd2bce68409b9fbedd01143ab7636710bd4ea8f9d334985a86a9c0b305fc19d",
+    "release_sha256": "3fd2bce68409b9fbedd01143ab7636710bd4ea8f9d334985a86a9c0b305fc19d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/fixed_fusion.py",
+    "source_group": "NASA project",
+    "source_name": "fixed_fusion.py",
+    "original_sha256": "c6ea3fe7a4924cc1b4173ca6560d311fad61acea63df34800314a0d312f89857",
+    "release_sha256": "6d8b06472899a8fea2f548d62a89b1f0fd845fc9477bc6a7435cd4c63904ff2b"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/forecasting.py",
+    "source_group": "NASA project",
+    "source_name": "forecasting.py",
+    "original_sha256": "07cfc8bcd39fb127f4a8e002147e6f571424f84d72b7b4b7a96a413653ca9502",
+    "release_sha256": "07cfc8bcd39fb127f4a8e002147e6f571424f84d72b7b4b7a96a413653ca9502"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/kalman_fusion.py",
+    "source_group": "NASA project",
+    "source_name": "kalman_fusion.py",
+    "original_sha256": "a8779a51347ddd1e442fde744cf89f708b8fba33fb4e2f94fb7a0799408e1751",
+    "release_sha256": "54c85460cf7e9e88e0f28f4331b9ede78efa009fa11b9a8246235872a025e4c6"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/monitoring.py",
+    "source_group": "NASA project",
+    "source_name": "monitoring.py",
+    "original_sha256": "5b457f2eb14884310e483946bfb979fd164ecb8c3c9b0200bd4cfe9e141208e4",
+    "release_sha256": "5b457f2eb14884310e483946bfb979fd164ecb8c3c9b0200bd4cfe9e141208e4"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/monotonicity.py",
+    "source_group": "NASA project",
+    "source_name": "monotonicity.py",
+    "original_sha256": "382063ca6ac2f0a865f93e557dc2aff0b653cfa6c7eca579df4fcc2fc9b613db",
+    "release_sha256": "382063ca6ac2f0a865f93e557dc2aff0b653cfa6c7eca579df4fcc2fc9b613db"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/plots.py",
+    "source_group": "NASA project",
+    "source_name": "plots.py",
+    "original_sha256": "cf31354bc9f846af82b32525cc85eedcdc14548e3f037d98e2e40fd61f3e41fd",
+    "release_sha256": "cf31354bc9f846af82b32525cc85eedcdc14548e3f037d98e2e40fd61f3e41fd"
+  },
+  {
+    "file": "wear_monitoring_dynamics/evaluation/__init__.py",
+    "source_group": "NASA project",
+    "source_name": "__init__.py",
+    "original_sha256": "ce3d06dba1ea1362f8c709f4a0ef418cb09f73fbc68643d0b1632c45afe5d7f1",
+    "release_sha256": "ce3d06dba1ea1362f8c709f4a0ef418cb09f73fbc68643d0b1632c45afe5d7f1"
+  },
+  {
+    "file": "wear_monitoring_dynamics/losses/derivative.py",
+    "source_group": "NASA project",
+    "source_name": "derivative.py",
+    "original_sha256": "035c00b1f1aa485892909c85fed9f91f3f664f4c7811620f84894378c752b381",
+    "release_sha256": "035c00b1f1aa485892909c85fed9f91f3f664f4c7811620f84894378c752b381"
+  },
+  {
+    "file": "wear_monitoring_dynamics/losses/forecasting.py",
+    "source_group": "NASA project",
+    "source_name": "forecasting.py",
+    "original_sha256": "26499f92fc1a96449cd52561f1b209c3f567d9776ed996885fab036e11995ef1",
+    "release_sha256": "26499f92fc1a96449cd52561f1b209c3f567d9776ed996885fab036e11995ef1"
+  },
+  {
+    "file": "wear_monitoring_dynamics/losses/monotonicity.py",
+    "source_group": "NASA project",
+    "source_name": "monotonicity.py",
+    "original_sha256": "dde24c9d9fdb5eb5f3e4d581011f3bedfe8925b2a3494d8ba6044c173187dc6f",
+    "release_sha256": "dde24c9d9fdb5eb5f3e4d581011f3bedfe8925b2a3494d8ba6044c173187dc6f"
+  },
+  {
+    "file": "wear_monitoring_dynamics/losses/supervised.py",
+    "source_group": "NASA project",
+    "source_name": "supervised.py",
+    "original_sha256": "f8ac540824ba4a0448a8964e675867601a6b28bca414d77206d533a343091f75",
+    "release_sha256": "f8ac540824ba4a0448a8964e675867601a6b28bca414d77206d533a343091f75"
+  },
+  {
+    "file": "wear_monitoring_dynamics/losses/__init__.py",
+    "source_group": "NASA project",
+    "source_name": "__init__.py",
+    "original_sha256": "bda8a0a6c855c191eb77c7ff2ffa79142944ddf38ca085892b004534d6e85aeb",
+    "release_sha256": "bda8a0a6c855c191eb77c7ff2ffa79142944ddf38ca085892b004534d6e85aeb"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/coupled.py",
+    "source_group": "NASA project",
+    "source_name": "coupled.py",
+    "original_sha256": "e17e0670caaf8b41f452b774a2532316a8d80f01154781ebb4535cf5b6919a4f",
+    "release_sha256": "e17e0670caaf8b41f452b774a2532316a8d80f01154781ebb4535cf5b6919a4f"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/direct_transition.py",
+    "source_group": "NASA project",
+    "source_name": "direct_transition.py",
+    "original_sha256": "f221df89c681a4bbfe23e9db07df6ff56d672a7200e2e35e682f6f30689335af",
+    "release_sha256": "13a10506840ab179af2d55fb655796a2855721e0eea6955bf7ee10103a5d104d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/dynamics.py",
+    "source_group": "NASA project",
+    "source_name": "dynamics.py",
+    "original_sha256": "90f1eeabb4cc909576625defbb8bd1649d12ed2b45e9d5f5a345c22e9d9dd73e",
+    "release_sha256": "90f1eeabb4cc909576625defbb8bd1649d12ed2b45e9d5f5a345c22e9d9dd73e"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/feature_mlp.py",
+    "source_group": "NASA project",
+    "source_name": "feature_mlp.py",
+    "original_sha256": "0e6b6be7b3961f42c195144612c41b73c1316906572648dcd6864513e5c2de84",
+    "release_sha256": "0e6b6be7b3961f42c195144612c41b73c1316906572648dcd6864513e5c2de84"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/feature_subset.py",
+    "source_group": "NASA project",
+    "source_name": "feature_subset.py",
+    "original_sha256": "fc3b3b5c5d6da3dba39de637ed08e20f66175c8b479e2e5a068e3fa957a7e68b",
+    "release_sha256": "fc3b3b5c5d6da3dba39de637ed08e20f66175c8b479e2e5a068e3fa957a7e68b"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/gated_features.py",
+    "source_group": "NASA project",
+    "source_name": "gated_features.py",
+    "original_sha256": "8cbc8bb0ddc6ba1dccc3fa76a7524809a76ce3aa734a6a33126713f313f881db",
+    "release_sha256": "12c5343d71a1da32e8a602669d7087ec8bd47247638c24d789249e87e36e228f"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/history.py",
+    "source_group": "NASA project",
+    "source_name": "history.py",
+    "original_sha256": "139a5c7569cf2f3927f5e3b84c5f38b5dc209bdf2697a49cf99c48c9181bc8c7",
+    "release_sha256": "139a5c7569cf2f3927f5e3b84c5f38b5dc209bdf2697a49cf99c48c9181bc8c7"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/monitoring.py",
+    "source_group": "NASA project",
+    "source_name": "monitoring.py",
+    "original_sha256": "1ce7da44b8891cc73149ff1dd45f2435478f2af5e92861c5a367500d4cc067b5",
+    "release_sha256": "1ce7da44b8891cc73149ff1dd45f2435478f2af5e92861c5a367500d4cc067b5"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/registry.py",
+    "source_group": "NASA project",
+    "source_name": "registry.py",
+    "original_sha256": "1912961897542261c02db6206c5fc2f60e8d4bd7e6345c1b15cbfe4883cb3708",
+    "release_sha256": "21adb2c19e0c0259c54314afd195562c1a7d272730a9176503b4660e7e87d35b"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/time_conditioned.py",
+    "source_group": "NASA project",
+    "source_name": "time_conditioned.py",
+    "original_sha256": "733182b79f3cebb507b8a4d8e2c077cf8ba15d012bae3d1be25c75ae0596906c",
+    "release_sha256": "733182b79f3cebb507b8a4d8e2c077cf8ba15d012bae3d1be25c75ae0596906c"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/zhang.py",
+    "source_group": "NASA project",
+    "source_name": "zhang.py",
+    "original_sha256": "05525704e3e269d223b1f142a50c79c14abba7d6b25bf6140cc75aa2fdffef6c",
+    "release_sha256": "05525704e3e269d223b1f142a50c79c14abba7d6b25bf6140cc75aa2fdffef6c"
+  },
+  {
+    "file": "wear_monitoring_dynamics/models/__init__.py",
+    "source_group": "NASA project",
+    "source_name": "__init__.py",
+    "original_sha256": "b60c48fc81463f900cc2ce8f734768f30cf90c1255d91bf0647276c2ec536f33",
+    "release_sha256": "b60c48fc81463f900cc2ce8f734768f30cf90c1255d91bf0647276c2ec536f33"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/analyze_completed.py",
+    "source_group": "NASA project",
+    "source_name": "analyze_completed.py",
+    "original_sha256": "d368bafc70fce07e63945da599606b229ecc9aa15d280b2deba0d4a0e0f2a4e6",
+    "release_sha256": "d368bafc70fce07e63945da599606b229ecc9aa15d280b2deba0d4a0e0f2a4e6"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/analyze_current_repeatability.py",
+    "source_group": "NASA project",
+    "source_name": "analyze_current_repeatability.py",
+    "original_sha256": "8ca7c3679fa0b5bbcd3990f311a7b0c6d4a2a84a8d0bd4c68b8502eb4fdd8701",
+    "release_sha256": "f9a2f1c24ed58ba00cfc880422a0e1e4c53d4f62a93f105d60609c926a79a52a"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_current12_fusion.py",
+    "source_group": "NASA project",
+    "source_name": "audit_current12_fusion.py",
+    "original_sha256": "b43d1f3de0065d1af53681c94c664850818a7e865d37956b91966d2f7369fbff",
+    "release_sha256": "a59a73a519b07585ea316a7450565b8594e7b8ee60328c6114b6220380e0cb8c"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_current12_recursive_joint.py",
+    "source_group": "NASA project",
+    "source_name": "audit_current12_recursive_joint.py",
+    "original_sha256": "64d2f752f470daab56c1b99b6768a7d65646f4995b88dd435ea9bd2af86c2e05",
+    "release_sha256": "733793643c0eb3a3efe1830438c2b015f7f045c5d8832cef324c8712d03cede4"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_current12_single_joint.py",
+    "source_group": "NASA project",
+    "source_name": "audit_current12_single_joint.py",
+    "original_sha256": "b68ba5b4dffa2db31a4681cf3ec6289565578fa4c3b9c28044368c50c2f1b28d",
+    "release_sha256": "7d91dde296e01a8fbbcbf1b858399220ac5392712ced8360eac5f4d38178b54d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_current_gate.py",
+    "source_group": "NASA project",
+    "source_name": "audit_current_gate.py",
+    "original_sha256": "2b5eeaaf8ae2c5f3b341b1381bafa157c73ca8f0a29d27fd43966d4c2e7c1b52",
+    "release_sha256": "c03d80d13026f698f1f877403e93f582f2a14243e1528062e8a1bf57901c273f"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_current_preprocessing.py",
+    "source_group": "NASA project",
+    "source_name": "audit_current_preprocessing.py",
+    "original_sha256": "bcc9c06d3a752b1f5b3c317e92bdb5840ca6668812eb93837c11e987b3f3aeee",
+    "release_sha256": "713108039cecb5f7fb621a5f6654666c040368b7515c749b0aaaad952b2cce92"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_current_top18_preprocessing.py",
+    "source_group": "NASA project",
+    "source_name": "audit_current_top18_preprocessing.py",
+    "original_sha256": "bed0035c9b5469c6a203e45898e30582d1ecfe9bb0c172da722a201128fb570b",
+    "release_sha256": "7a231154ae64f7564ecd225d724f807d28949c64b125f7d23f0fffb29afdf3bc"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_direct_vs_ode.py",
+    "source_group": "NASA project",
+    "source_name": "audit_direct_vs_ode.py",
+    "original_sha256": "d06ce9b2eb050067064043df1faa22da748d582f2f5be14a40c711e4e2b70e99",
+    "release_sha256": "84a169cd4dba46e9a17e4a47c1650c13df225e8c0827f30631b819a2265f039b"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_history_phase13.py",
+    "source_group": "NASA project",
+    "source_name": "audit_history_phase13.py",
+    "original_sha256": "58e74547628ef4bd735271aef421916d925f00bb50d91f3493f35e1d42973740",
+    "release_sha256": "36573b61abc2e98e9d32391881bbca244e9e40cd2e9007a24d4cc1ed0d9b5750"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_history_quality.py",
+    "source_group": "NASA project",
+    "source_name": "audit_history_quality.py",
+    "original_sha256": "21ed8ef30e7302f7726663725c3c4185b31e566fbf247c347ef1952b57a9247d",
+    "release_sha256": "21ed8ef30e7302f7726663725c3c4185b31e566fbf247c347ef1952b57a9247d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_psd_sweep.py",
+    "source_group": "NASA project",
+    "source_name": "audit_psd_sweep.py",
+    "original_sha256": "0308f5fcbef6f0cbfe87cb5e55e5bf3371613e5e089368013451793a789e5c7d",
+    "release_sha256": "0308f5fcbef6f0cbfe87cb5e55e5bf3371613e5e089368013451793a789e5c7d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_quality_propagation.py",
+    "source_group": "NASA project",
+    "source_name": "audit_quality_propagation.py",
+    "original_sha256": "ba8c37300d2751a46dffd706834671b00d3bc34aaf4f7153ac39f35c385f26a7",
+    "release_sha256": "ba8c37300d2751a46dffd706834671b00d3bc34aaf4f7153ac39f35c385f26a7"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_recursive_inputs.py",
+    "source_group": "NASA project",
+    "source_name": "audit_recursive_inputs.py",
+    "original_sha256": "580804e85b9e3b54bb04d130e9d46ebbbd7f53dbeb1cf5a0782b09b757ad0b7f",
+    "release_sha256": "df14e78cac14f0901e6a7bab868b123a430d3b88e5ef6a481741b13ee8a83323"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_sensor_initialization.py",
+    "source_group": "NASA project",
+    "source_name": "audit_sensor_initialization.py",
+    "original_sha256": "3df412fa17e19c5ccf5059e7c37c7f4d56557a2ba3773891bc6b53cd46768985",
+    "release_sha256": "3df412fa17e19c5ccf5059e7c37c7f4d56557a2ba3773891bc6b53cd46768985"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/audit_train_only_coverage.py",
+    "source_group": "NASA project",
+    "source_name": "audit_train_only_coverage.py",
+    "original_sha256": "2fa8f97b72afba59934f2b97778866e385351364964539a0c5f97d5c6b14134c",
+    "release_sha256": "90c88c36d97fbf3c338bbcc4db4f611f5e36777895cba0cf7a22d0ab15a205c0"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/benchmark.py",
+    "source_group": "NASA project",
+    "source_name": "benchmark.py",
+    "original_sha256": "c64c547e553faa047f94e06d09de0da042896c4755d40700a47f35c36ee0cfcd",
+    "release_sha256": "c64c547e553faa047f94e06d09de0da042896c4755d40700a47f35c36ee0cfcd"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/benchmark_zhang.py",
+    "source_group": "NASA project",
+    "source_name": "benchmark_zhang.py",
+    "original_sha256": "54794c0f097bc18bf9013ecb78a6502195d7fbf455b594ee3f9257e7c379ace5",
+    "release_sha256": "54794c0f097bc18bf9013ecb78a6502195d7fbf455b594ee3f9257e7c379ace5"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/compare_current_calibration.py",
+    "source_group": "NASA project",
+    "source_name": "compare_current_calibration.py",
+    "original_sha256": "66a3a80a764b953518c9108b144bfa3670e5d7f8a411335c84bbb3a4be8d30a9",
+    "release_sha256": "44cc244a34707bdef87c9d282bbdc35f39acb09192b366b250df38363ff14a3a"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/compare_fixed500_ranges.py",
+    "source_group": "NASA project",
+    "source_name": "compare_fixed500_ranges.py",
+    "original_sha256": "eccb3badff6c1e688579af358f7562af7a54604a5a952de9682184014bc1ada9",
+    "release_sha256": "677d33b251dec66efa1b9ec87ca30fee792b48b2348ccd012b97baaeef1e5543"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/compare_top18_epoch500.py",
+    "source_group": "NASA project",
+    "source_name": "compare_top18_epoch500.py",
+    "original_sha256": "b5a1b7bd7b2e205e2fe38bb08ce594c14bd11548d47e0641521285838722c4eb",
+    "release_sha256": "b5a1b7bd7b2e205e2fe38bb08ce594c14bd11548d47e0641521285838722c4eb"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/current_feature_consistency.py",
+    "source_group": "NASA project",
+    "source_name": "current_feature_consistency.py",
+    "original_sha256": "0ae97ce282ea0c70d45d490edefa0697953170f9d08e744db2635c40285fe289",
+    "release_sha256": "0ae97ce282ea0c70d45d490edefa0697953170f9d08e744db2635c40285fe289"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/diagnose_low_feed_pairs.py",
+    "source_group": "NASA project",
+    "source_name": "diagnose_low_feed_pairs.py",
+    "original_sha256": "c07a6a28f4dff5adeb31bd6e4ade4a03002abd98e5f191b2e0b38d22a2ac47e6",
+    "release_sha256": "0e6a90ce71a2047d99d6fad5f658a8a4b8db09cf11fc23df6d88767a6c0a761d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/diagnose_monotonicity.py",
+    "source_group": "NASA project",
+    "source_name": "diagnose_monotonicity.py",
+    "original_sha256": "7f66313e1e34bd5b8a2e9070c33aa67f6f33828d1e091a42279d8bfc4de1d247",
+    "release_sha256": "7f66313e1e34bd5b8a2e9070c33aa67f6f33828d1e091a42279d8bfc4de1d247"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/diagnose_pair_sensitivity.py",
+    "source_group": "NASA project",
+    "source_name": "diagnose_pair_sensitivity.py",
+    "original_sha256": "affcd643c9303b19441b1d6c1cd602d446f15c0c89d44b8df3baf5fe1885f79a",
+    "release_sha256": "cb6fbb8f433ead89eafc426ceba9daf9e6be6feecfcf452f149a3f76becfc8b7"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/diagnose_relative_features.py",
+    "source_group": "NASA project",
+    "source_name": "diagnose_relative_features.py",
+    "original_sha256": "69e0e9dd74140b501ca1c7629870152d62a682545b46589e71ac9412635bb667",
+    "release_sha256": "69e0e9dd74140b501ca1c7629870152d62a682545b46589e71ac9412635bb667"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/diagnose_sensor_learning.py",
+    "source_group": "NASA project",
+    "source_name": "diagnose_sensor_learning.py",
+    "original_sha256": "26d89c70cc49ae31de6807073bbb7e08791b104ef9239277686048630ed687b2",
+    "release_sha256": "26d89c70cc49ae31de6807073bbb7e08791b104ef9239277686048630ed687b2"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/diagnose_signal_windows.py",
+    "source_group": "NASA project",
+    "source_name": "diagnose_signal_windows.py",
+    "original_sha256": "78e23280ca50422305f4b0cd8e9316fab76de40a3813dd484134344d95b52208",
+    "release_sha256": "78e23280ca50422305f4b0cd8e9316fab76de40a3813dd484134344d95b52208"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/evaluate.py",
+    "source_group": "NASA project",
+    "source_name": "evaluate.py",
+    "original_sha256": "54887521183d0972849d205973c60d24f8d480ea8270e0929ae506491d17dd41",
+    "release_sha256": "54887521183d0972849d205973c60d24f8d480ea8270e0929ae506491d17dd41"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/explore_current_components.py",
+    "source_group": "NASA project",
+    "source_name": "explore_current_components.py",
+    "original_sha256": "5080ffd76af1524c97e2761893f18d7c72808eb77e7f037ba96cf78a774a4e92",
+    "release_sha256": "5080ffd76af1524c97e2761893f18d7c72808eb77e7f037ba96cf78a774a4e92"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/inspect_current_conditions.py",
+    "source_group": "NASA project",
+    "source_name": "inspect_current_conditions.py",
+    "original_sha256": "87eb3f9852e8fe20f799bbe10f2658185f3c7b9c285fecd50cb2103a5077648d",
+    "release_sha256": "87eb3f9852e8fe20f799bbe10f2658185f3c7b9c285fecd50cb2103a5077648d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/inspect_feature_ranges.py",
+    "source_group": "NASA project",
+    "source_name": "inspect_feature_ranges.py",
+    "original_sha256": "a40b8d4d7e8fe2aa06b2e34c13a39e4d4ed3d4cdcc16b89513c96267ae33e91b",
+    "release_sha256": "a40b8d4d7e8fe2aa06b2e34c13a39e4d4ed3d4cdcc16b89513c96267ae33e91b"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/inspect_input_quality.py",
+    "source_group": "NASA project",
+    "source_name": "inspect_input_quality.py",
+    "original_sha256": "b9ccdc5782b4eb6fc6a0e5970bb4523a1ea3c2a293dca6b8c014cd8f9cbb0b18",
+    "release_sha256": "dbdd5b84bb522a6373644506e355136519f2ce40757bb648f99997ed702bbd02"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/inspect_psd_case_errors.py",
+    "source_group": "NASA project",
+    "source_name": "inspect_psd_case_errors.py",
+    "original_sha256": "8ce70058ef8f8720d6ea97a8ad0c1e963bce4a3e56f14b734b13a1e85ccb84d7",
+    "release_sha256": "8ce70058ef8f8720d6ea97a8ad0c1e963bce4a3e56f14b734b13a1e85ccb84d7"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/inspect_psd_features.py",
+    "source_group": "NASA project",
+    "source_name": "inspect_psd_features.py",
+    "original_sha256": "97eb53328881ec2b1a7700364b30a24fe226961435ede286734fd6a30ae7edfa",
+    "release_sha256": "199d95e8e43f086f867bd110704101c90ef46ea60be58986ebcb91b791448bed"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/inspect_sensor_features.py",
+    "source_group": "NASA project",
+    "source_name": "inspect_sensor_features.py",
+    "original_sha256": "e2dee9b2483a8a0ae74a847e5536c61ab7316dd6fd296748e1c9cd75da21b132",
+    "release_sha256": "e2dee9b2483a8a0ae74a847e5536c61ab7316dd6fd296748e1c9cd75da21b132"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/plot_abcd_future_horizons.py",
+    "source_group": "NASA project",
+    "source_name": "plot_abcd_future_horizons.py",
+    "original_sha256": "1ad9106968e8cf8e8d6a5fd394233bec8a0a5d487b169164d48243a2d87eb72f",
+    "release_sha256": "4dbc7da90d1685f8754e06d49dcb232d23801879b961b8aecd893e74bc2f6ddf"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/plot_current12_fusion_epochs.py",
+    "source_group": "NASA project",
+    "source_name": "plot_current12_fusion_epochs.py",
+    "original_sha256": "afc286a8eeb6097e330f7e8c25ee24492d5e2318fc2c47171e6c8a55b6d4b088",
+    "release_sha256": "94b78e7eb78a47b1d9db6048a860bfa8bb924ba9c113a2289c6f0befd7daf6cd"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/plot_model_learning_curves.py",
+    "source_group": "NASA project",
+    "source_name": "plot_model_learning_curves.py",
+    "original_sha256": "439534824492d565e5d8c310f756eec6ad8bf7113895d7bcecfb3188261316e2",
+    "release_sha256": "9e8fd23044ea4be32f337697b6c77d18e9e214b679747998ab11bf43d08e6ffd"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/plot_psd_vs_vb.py",
+    "source_group": "NASA project",
+    "source_name": "plot_psd_vs_vb.py",
+    "original_sha256": "e9e17fa33499adcccbb66420fb08f4f00c868635b4293871aca7e73e40733501",
+    "release_sha256": "e9e17fa33499adcccbb66420fb08f4f00c868635b4293871aca7e73e40733501"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/plot_raw_current_stitched.py",
+    "source_group": "NASA project",
+    "source_name": "plot_raw_current_stitched.py",
+    "original_sha256": "721844148ae94864959fc03ee0efc4ccc44c34906a43f11214846e407b454f6b",
+    "release_sha256": "721844148ae94864959fc03ee0efc4ccc44c34906a43f11214846e407b454f6b"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/plot_raw_other_sensors_stitched.py",
+    "source_group": "NASA project",
+    "source_name": "plot_raw_other_sensors_stitched.py",
+    "original_sha256": "735c005dc4896a8ec69b583a183e2774d1edb8102ffd24867bee59d8733ea078",
+    "release_sha256": "735c005dc4896a8ec69b583a183e2774d1edb8102ffd24867bee59d8733ea078"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/plot_run.py",
+    "source_group": "NASA project",
+    "source_name": "plot_run.py",
+    "original_sha256": "1e39e6d5c5a93f8bfb35f8ff3619caa3dd0b239911e2742446e8a3db67765cd2",
+    "release_sha256": "1e39e6d5c5a93f8bfb35f8ff3619caa3dd0b239911e2742446e8a3db67765cd2"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/plot_selection_epoch_curves.py",
+    "source_group": "NASA project",
+    "source_name": "plot_selection_epoch_curves.py",
+    "original_sha256": "fe78eb06b38d28cf9f0e3498574121d4c6f0a58888d9d3cd255bfa5e9292073d",
+    "release_sha256": "fe78eb06b38d28cf9f0e3498574121d4c6f0a58888d9d3cd255bfa5e9292073d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/prepare_data.py",
+    "source_group": "NASA project",
+    "source_name": "prepare_data.py",
+    "original_sha256": "f511db90b43bc7259eccf8497e27c7756bca1db43a99b238f88f6fa36c65b70c",
+    "release_sha256": "f511db90b43bc7259eccf8497e27c7756bca1db43a99b238f88f6fa36c65b70c"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/process_current_signals.py",
+    "source_group": "NASA project",
+    "source_name": "process_current_signals.py",
+    "original_sha256": "bd9df97da337285fb6233ae38700a1402141a164a18e7fd98cefbd57305e2a14",
+    "release_sha256": "bd9df97da337285fb6233ae38700a1402141a164a18e7fd98cefbd57305e2a14"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/rank_sensor_monotonicity.py",
+    "source_group": "NASA project",
+    "source_name": "rank_sensor_monotonicity.py",
+    "original_sha256": "22c45767388e8eafd5a45a91fb8c20f626d8757160212f3b4fbcff79bd740281",
+    "release_sha256": "22c45767388e8eafd5a45a91fb8c20f626d8757160212f3b4fbcff79bd740281"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/report_abcd_from100.py",
+    "source_group": "NASA project",
+    "source_name": "report_abcd_from100.py",
+    "original_sha256": "80de747784d8be84ea7055f11b2d5040905ea38c54502b0874dcbeda80e72e75",
+    "release_sha256": "b9ae4dc69b07eace8e5beee8be4163b5b70ef92eeea7274ab5a04d69fc069bfc"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/report_current12_fusion.py",
+    "source_group": "NASA project",
+    "source_name": "report_current12_fusion.py",
+    "original_sha256": "14e84d4a4c204544c7fd334c580bc5a623e95bb7830fc09f1cdde575bf04fec3",
+    "release_sha256": "f2d3e5069186799aa2bc5a98a1305a39ea351c02719ba3d3dc867aeb0cee9136"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/report_current12_phase5.py",
+    "source_group": "NASA project",
+    "source_name": "report_current12_phase5.py",
+    "original_sha256": "025156e16bbf5c9634c5b2b6d124fdebbed11c1c873ecb35fd7d2db72428642a",
+    "release_sha256": "9192e045906dc89e6e7bd57bf617bb7e601cfc0403faf81a5b611e477d181ed8"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_abcd_from100.py",
+    "source_group": "NASA project",
+    "source_name": "run_abcd_from100.py",
+    "original_sha256": "b44e09935d116aceb04d02756103afecd5e1ad4a071a512316d5d5e12216050b",
+    "release_sha256": "1d8ee1223fe0f68b5acba6bd784de5075bab607eb0d0d4edf38dc498dbb23a3c"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_background_state_filter.py",
+    "source_group": "NASA project",
+    "source_name": "run_background_state_filter.py",
+    "original_sha256": "15fce603ed0f90e73f8ad7bfe3803c776b6d792ff6f5205fa8954123a3c0cd47",
+    "release_sha256": "15fce603ed0f90e73f8ad7bfe3803c776b6d792ff6f5205fa8954123a3c0cd47"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_current12_fusion.py",
+    "source_group": "NASA project",
+    "source_name": "run_current12_fusion.py",
+    "original_sha256": "7f5c314bfc5985c061c1d653bb01cf5147cd8bb788f1c662afacfd2cc61de532",
+    "release_sha256": "7b9d1a3b6f3f29dae5ada486542193ff4da297da3e52d356a6de56a6bbe8f265"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_current12_phase5.py",
+    "source_group": "NASA project",
+    "source_name": "run_current12_phase5.py",
+    "original_sha256": "1240bd54b282da26cd29a126054ceca7dc5592f17920ec38eed844841f266613",
+    "release_sha256": "879701f4b34845fb95874b0f69d9b9299f699d332d88e6084c5595f68694fb78"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_current12_phase6.py",
+    "source_group": "NASA project",
+    "source_name": "run_current12_phase6.py",
+    "original_sha256": "84af8c42c8c2cc21c47acc2963665523e187e712b394995a5248f12b2c20b3bf",
+    "release_sha256": "bb41986ef01ed4172db2e601e5d0a6433c98a802bab1da3f945639109332ec52"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_current12_recursive_joint.py",
+    "source_group": "NASA project",
+    "source_name": "run_current12_recursive_joint.py",
+    "original_sha256": "d6beb147338b737695bb350b20c272d2cb104905f5df99a08a51b2da35b88f40",
+    "release_sha256": "ac03de7d7b7eafc943bcd0df244616d6f66d49a8181230153532af5b33c49664"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_current12_single_joint.py",
+    "source_group": "NASA project",
+    "source_name": "run_current12_single_joint.py",
+    "original_sha256": "ea49bdefb1563b43337991de726d0d630667531359bb36e34d7cfcbce3e7b5a3",
+    "release_sha256": "73faa0e17f3e3554127b02a83f1e0d50b72fa2cc32d54a12e9d10517de2c404a"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_current_gate.py",
+    "source_group": "NASA project",
+    "source_name": "run_current_gate.py",
+    "original_sha256": "79c9aa045de3b1a28f39bb011f540eb14f77207cb93bfee5a3ca80bde0c4e656",
+    "release_sha256": "94c5604b0024a8153e303664c7ebaa1f001223057f597dc138b057770a923435"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_current_preprocessing.py",
+    "source_group": "NASA project",
+    "source_name": "run_current_preprocessing.py",
+    "original_sha256": "735e7a1d34eb35a075a3c1a7d235473b3b646bcd9421d0fdd9f750d6d6ee4190",
+    "release_sha256": "735e7a1d34eb35a075a3c1a7d235473b3b646bcd9421d0fdd9f750d6d6ee4190"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_direct_vs_ode.py",
+    "source_group": "NASA project",
+    "source_name": "run_direct_vs_ode.py",
+    "original_sha256": "965cf07281c502723c5e01b91421f6c1dabb1f5d9bca8524d10497b474caeda2",
+    "release_sha256": "183e909be2a056da0727c6d958d239a935b611e638ff0777a75b2afa96a79596"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_fixed_conditioning.py",
+    "source_group": "NASA project",
+    "source_name": "run_fixed_conditioning.py",
+    "original_sha256": "e4147b83ec642a3edd5c1ba078c166af9195e9a6d4e69833eed895ca1d3164b2",
+    "release_sha256": "e4147b83ec642a3edd5c1ba078c166af9195e9a6d4e69833eed895ca1d3164b2"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_gap_selected.py",
+    "source_group": "NASA project",
+    "source_name": "run_gap_selected.py",
+    "original_sha256": "d377fae1ac261a81c9a0ec81af1ab5cc15ba2d214b6115ad604927bf320f739d",
+    "release_sha256": "d377fae1ac261a81c9a0ec81af1ab5cc15ba2d214b6115ad604927bf320f739d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_history_phase13.py",
+    "source_group": "NASA project",
+    "source_name": "run_history_phase13.py",
+    "original_sha256": "70eb1fb302fa0454c7709d9ef9d87c563851622704df83c79cd32482fb33a179",
+    "release_sha256": "70eb1fb302fa0454c7709d9ef9d87c563851622704df83c79cd32482fb33a179"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_initial_context.py",
+    "source_group": "NASA project",
+    "source_name": "run_initial_context.py",
+    "original_sha256": "9dd3c42524d0bcb46955474acee052998ca6374e389ddead0bc64b201d93f63d",
+    "release_sha256": "9dd3c42524d0bcb46955474acee052998ca6374e389ddead0bc64b201d93f63d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_monotonicity.py",
+    "source_group": "NASA project",
+    "source_name": "run_monotonicity.py",
+    "original_sha256": "8a6aa4952552134b6e0363e4f860c1d7309aaa6ca381db42d9f0c084324985cf",
+    "release_sha256": "8a6aa4952552134b6e0363e4f860c1d7309aaa6ca381db42d9f0c084324985cf"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_psd_sweep.py",
+    "source_group": "NASA project",
+    "source_name": "run_psd_sweep.py",
+    "original_sha256": "291571be1dc7c859faa48f59e136c79ea9d6447eb97ce1d8c498a822c3da76ad",
+    "release_sha256": "291571be1dc7c859faa48f59e136c79ea9d6447eb97ce1d8c498a822c3da76ad"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_selection_comparison.py",
+    "source_group": "NASA project",
+    "source_name": "run_selection_comparison.py",
+    "original_sha256": "61b34bc9a1d4ccd4c747fe6b48e5ae67a062c59db5ff9dc3d865c2de192eae32",
+    "release_sha256": "61b34bc9a1d4ccd4c747fe6b48e5ae67a062c59db5ff9dc3d865c2de192eae32"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_sensor_mechanisms.py",
+    "source_group": "NASA project",
+    "source_name": "run_sensor_mechanisms.py",
+    "original_sha256": "11ad83dea4812795d3c4eb5823df639a02883684ead3d437fa6ce3f7b8039be5",
+    "release_sha256": "11ad83dea4812795d3c4eb5823df639a02883684ead3d437fa6ce3f7b8039be5"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_study.py",
+    "source_group": "NASA project",
+    "source_name": "run_study.py",
+    "original_sha256": "75c2708170ff824ed12bb056462f2baff3532f77a9d981ccd0e3a994714a8da1",
+    "release_sha256": "75c2708170ff824ed12bb056462f2baff3532f77a9d981ccd0e3a994714a8da1"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_time_conditioning.py",
+    "source_group": "NASA project",
+    "source_name": "run_time_conditioning.py",
+    "original_sha256": "b11919c02314d515d714832791ebe479593899532c0ce00a78e119dbac81a450",
+    "release_sha256": "b11919c02314d515d714832791ebe479593899532c0ce00a78e119dbac81a450"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_top18_features.py",
+    "source_group": "NASA project",
+    "source_name": "run_top18_features.py",
+    "original_sha256": "ae54be5d9d0a2b417da587b9200826e81efbd72e939318a332f3222e97ee7dce",
+    "release_sha256": "ae54be5d9d0a2b417da587b9200826e81efbd72e939318a332f3222e97ee7dce"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_top18_ode.py",
+    "source_group": "NASA project",
+    "source_name": "run_top18_ode.py",
+    "original_sha256": "1f8bd1ddbb3b78dadd0bdebb327c4c41143fd9cc4e0766a10c5f0b8a862eb74e",
+    "release_sha256": "1f8bd1ddbb3b78dadd0bdebb327c4c41143fd9cc4e0766a10c5f0b8a862eb74e"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/run_train_only_coverage.py",
+    "source_group": "NASA project",
+    "source_name": "run_train_only_coverage.py",
+    "original_sha256": "8f469ae8ace1d9c21692daaeddb78c42b59ed2c9a8aa1415939ef7372edc5d2d",
+    "release_sha256": "7a236352ae60d0f7472e7a0069b2d6bc1ce69e58cdf38d8dc7bc9c3f4379646c"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/summarize_background_state_filter.py",
+    "source_group": "NASA project",
+    "source_name": "summarize_background_state_filter.py",
+    "original_sha256": "604ab1d5c28ffdc8641cfc94ba47afca8ddfeae23604e61c9950e271fde69445",
+    "release_sha256": "604ab1d5c28ffdc8641cfc94ba47afca8ddfeae23604e61c9950e271fde69445"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/summarize_current12_recursive_joint.py",
+    "source_group": "NASA project",
+    "source_name": "summarize_current12_recursive_joint.py",
+    "original_sha256": "f5678bed5f7e90ae0f7bfa9214cf74648dc2fc7938d659f64aa79b14bcf2e9f6",
+    "release_sha256": "f74a19fbc3516155b3adba72417ea24741336fe110c30b3da1d3580271b0eba8"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/summarize_current_gate.py",
+    "source_group": "NASA project",
+    "source_name": "summarize_current_gate.py",
+    "original_sha256": "a56541f3d0d823e6d23fb7adb72b47160c36279e38274b49c3ee2ebe9737332e",
+    "release_sha256": "d91f5bc421ae64df25e2ab89db027c081112960037e9e4641a78ffbe7f63bf5f"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/summarize_gap_selected.py",
+    "source_group": "NASA project",
+    "source_name": "summarize_gap_selected.py",
+    "original_sha256": "05a44488e4a08f730035787cd6a18802192fafff9f631c61d9b08b81b06e4725",
+    "release_sha256": "05a44488e4a08f730035787cd6a18802192fafff9f631c61d9b08b81b06e4725"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/summarize_initial_context.py",
+    "source_group": "NASA project",
+    "source_name": "summarize_initial_context.py",
+    "original_sha256": "32c2a83c3ec034ea6e7f341251fc9537b1dd81a73536739c2a88981d7883bdf4",
+    "release_sha256": "32c2a83c3ec034ea6e7f341251fc9537b1dd81a73536739c2a88981d7883bdf4"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/summarize_sensor_mechanisms.py",
+    "source_group": "NASA project",
+    "source_name": "summarize_sensor_mechanisms.py",
+    "original_sha256": "997a28f62039fcb7e12395085d8ab1d10a02982da9f346ab09a291d47581f55c",
+    "release_sha256": "997a28f62039fcb7e12395085d8ab1d10a02982da9f346ab09a291d47581f55c"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/summarize_study.py",
+    "source_group": "NASA project",
+    "source_name": "summarize_study.py",
+    "original_sha256": "75204216e6b89f14ba92ce4c63abfd571f4cb342c671691ac12604d9a4f93e3e",
+    "release_sha256": "75204216e6b89f14ba92ce4c63abfd571f4cb342c671691ac12604d9a4f93e3e"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/train.py",
+    "source_group": "NASA project",
+    "source_name": "train.py",
+    "original_sha256": "e6699586a032fe71a28244dbe8161af48621694811d0c305c435d73d96b2970e",
+    "release_sha256": "e6699586a032fe71a28244dbe8161af48621694811d0c305c435d73d96b2970e"
+  },
+  {
+    "file": "wear_monitoring_dynamics/scripts/__init__.py",
+    "source_group": "NASA project",
+    "source_name": "__init__.py",
+    "original_sha256": "da95071c5ccec5c9a29006dcb0db9a92cf626855cc0fc64bb6976d3788ec1266",
+    "release_sha256": "da95071c5ccec5c9a29006dcb0db9a92cf626855cc0fc64bb6976d3788ec1266"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_background_state_filter.py",
+    "source_group": "NASA project",
+    "source_name": "test_background_state_filter.py",
+    "original_sha256": "37e64bc1ae8dcd4ccca93b83fa9104e75d58ca5a8fd453fcd5758f4df73ac876",
+    "release_sha256": "37e64bc1ae8dcd4ccca93b83fa9104e75d58ca5a8fd453fcd5758f4df73ac876"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_core.py",
+    "source_group": "NASA project",
+    "source_name": "test_core.py",
+    "original_sha256": "12d96a98cc5fbb97c1140ab5ccd800494865bd524757a6e1fde38fcd012ce1b9",
+    "release_sha256": "12d96a98cc5fbb97c1140ab5ccd800494865bd524757a6e1fde38fcd012ce1b9"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_current_calibration.py",
+    "source_group": "NASA project",
+    "source_name": "test_current_calibration.py",
+    "original_sha256": "060c822ea7f0b51f8bb4f9034dce5dabb81ad5efa29eb55c6c4e769358b3a64e",
+    "release_sha256": "060c822ea7f0b51f8bb4f9034dce5dabb81ad5efa29eb55c6c4e769358b3a64e"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_current_components.py",
+    "source_group": "NASA project",
+    "source_name": "test_current_components.py",
+    "original_sha256": "3e17976a7b24b47b2a88df9d052bd81723efea4cdf86ca7cabbda2a06c8bf517",
+    "release_sha256": "3e17976a7b24b47b2a88df9d052bd81723efea4cdf86ca7cabbda2a06c8bf517"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_current_feature_consistency.py",
+    "source_group": "NASA project",
+    "source_name": "test_current_feature_consistency.py",
+    "original_sha256": "389028e63506c6d9825e8de1546b4a7c3bd22c8e7b191d8e1cb5b18a965cbac4",
+    "release_sha256": "389028e63506c6d9825e8de1546b4a7c3bd22c8e7b191d8e1cb5b18a965cbac4"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_current_processing.py",
+    "source_group": "NASA project",
+    "source_name": "test_current_processing.py",
+    "original_sha256": "73268983a48bc452cc6278b9466a1705f7334d57cd31b6605bcb22a44ce07cd0",
+    "release_sha256": "73268983a48bc452cc6278b9466a1705f7334d57cd31b6605bcb22a44ce07cd0"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_direct_transition.py",
+    "source_group": "NASA project",
+    "source_name": "test_direct_transition.py",
+    "original_sha256": "5d8b05b2c3b25b2220c8feb06438f61680411526d8437947f11da7648836b6b2",
+    "release_sha256": "f686f553c078c179bd35956c55898fc0a5f660f18d824faf025ab22514382b1d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_feature_subset.py",
+    "source_group": "NASA project",
+    "source_name": "test_feature_subset.py",
+    "original_sha256": "c5dec2906f7a9b7a29385573d1ed85511fb0ee3621bc59e27835ad5637b5d919",
+    "release_sha256": "c5dec2906f7a9b7a29385573d1ed85511fb0ee3621bc59e27835ad5637b5d919"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_fixed_conditioning.py",
+    "source_group": "NASA project",
+    "source_name": "test_fixed_conditioning.py",
+    "original_sha256": "f18e8c97f5077b53c7ad4d30458793b4386715a0e81b5bff61920dcea39040b3",
+    "release_sha256": "f18e8c97f5077b53c7ad4d30458793b4386715a0e81b5bff61920dcea39040b3"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_fixed_fusion.py",
+    "source_group": "NASA project",
+    "source_name": "test_fixed_fusion.py",
+    "original_sha256": "be0acb58996287961c80e7d2d90afd7945cd1b98a5ef4e8138126483b25c4905",
+    "release_sha256": "6bd9d3a7569728ab6f9199fdd2c73b079054e357884ae5a050571c36810b6f61"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_gap_selected.py",
+    "source_group": "NASA project",
+    "source_name": "test_gap_selected.py",
+    "original_sha256": "c56193038b93dcaf18b02666c75f694a051f3819981b1262c6e8f7d1a6555e23",
+    "release_sha256": "c56193038b93dcaf18b02666c75f694a051f3819981b1262c6e8f7d1a6555e23"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_gates.py",
+    "source_group": "NASA project",
+    "source_name": "test_gates.py",
+    "original_sha256": "72b04f31d9ca812d8565db313a0abd5ec173a3da84a5fe748ee5eb9c4dbbb072",
+    "release_sha256": "852275397274e981e814f5a4ec177d2e023f2431e90ac0e46ac0f39c9048b8de"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_gradient_diagnostic.py",
+    "source_group": "NASA project",
+    "source_name": "test_gradient_diagnostic.py",
+    "original_sha256": "2364add86d7d70a2238b3000bd490df5860200e6f3b0b4f0f4d5cbf251fa69c6",
+    "release_sha256": "2364add86d7d70a2238b3000bd490df5860200e6f3b0b4f0f4d5cbf251fa69c6"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_history.py",
+    "source_group": "NASA project",
+    "source_name": "test_history.py",
+    "original_sha256": "4fef8e7eb8b9e04dbae2117c3cc24d1381215fd8c22eac512f347f576903874c",
+    "release_sha256": "4fef8e7eb8b9e04dbae2117c3cc24d1381215fd8c22eac512f347f576903874c"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_initial_context.py",
+    "source_group": "NASA project",
+    "source_name": "test_initial_context.py",
+    "original_sha256": "ddd64bcd109a8db7bfae643fa04d01ba31a01df32dbb52f98e18a5ad7cd4381f",
+    "release_sha256": "ddd64bcd109a8db7bfae643fa04d01ba31a01df32dbb52f98e18a5ad7cd4381f"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_kalman_fusion.py",
+    "source_group": "NASA project",
+    "source_name": "test_kalman_fusion.py",
+    "original_sha256": "9f9032500050b8fbbfecd8a58a6b0ed96db08748b76fa4979130c0f72514d3ca",
+    "release_sha256": "bea87c33de6f750fbcb55c59d082a679dc7ed9fe6f30e8f8325f9e7f17aaf125"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_monotonicity.py",
+    "source_group": "NASA project",
+    "source_name": "test_monotonicity.py",
+    "original_sha256": "e47ba20481b418352792dcc74e778dbcd7bc44147d4a65d3b9df6942a7a63f2d",
+    "release_sha256": "e47ba20481b418352792dcc74e778dbcd7bc44147d4a65d3b9df6942a7a63f2d"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_psd_sweep.py",
+    "source_group": "NASA project",
+    "source_name": "test_psd_sweep.py",
+    "original_sha256": "f545d55902888b241acdb629f59ef5f7b80635d322bdad58cc9adf74f42e3636",
+    "release_sha256": "f545d55902888b241acdb629f59ef5f7b80635d322bdad58cc9adf74f42e3636"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_relative_features.py",
+    "source_group": "NASA project",
+    "source_name": "test_relative_features.py",
+    "original_sha256": "6bab5383758a7902f259e7e4451cb995f12ba96f8cf4d8122f28a43564165a23",
+    "release_sha256": "6bab5383758a7902f259e7e4451cb995f12ba96f8cf4d8122f28a43564165a23"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_selection_comparison.py",
+    "source_group": "NASA project",
+    "source_name": "test_selection_comparison.py",
+    "original_sha256": "99198e34aaac0e4a3d38d8e1b033e5ee6b6b6549c12c48ac5ec89c11a8366504",
+    "release_sha256": "99198e34aaac0e4a3d38d8e1b033e5ee6b6b6549c12c48ac5ec89c11a8366504"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_sensor_mechanisms.py",
+    "source_group": "NASA project",
+    "source_name": "test_sensor_mechanisms.py",
+    "original_sha256": "dc49b49a81af0777740b5a8ab43184cb689a7ef77b77a7f3635302da50849f1f",
+    "release_sha256": "dc49b49a81af0777740b5a8ab43184cb689a7ef77b77a7f3635302da50849f1f"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_sensor_quality.py",
+    "source_group": "NASA project",
+    "source_name": "test_sensor_quality.py",
+    "original_sha256": "cb16cde2ced6204e550fd3ca33e945d865c2a7db9319e2042cd5ad4008ce05c8",
+    "release_sha256": "cb16cde2ced6204e550fd3ca33e945d865c2a7db9319e2042cd5ad4008ce05c8"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_sensor_transforms.py",
+    "source_group": "NASA project",
+    "source_name": "test_sensor_transforms.py",
+    "original_sha256": "e2079b50b3e13eb3842983a610118066d6dfa0a4005ee8cbc28c0fc26408b2ef",
+    "release_sha256": "e2079b50b3e13eb3842983a610118066d6dfa0a4005ee8cbc28c0fc26408b2ef"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_signal_windows.py",
+    "source_group": "NASA project",
+    "source_name": "test_signal_windows.py",
+    "original_sha256": "f4993a61bc5981a0a839fafd4d441cebf516621127109ee3edd9233a5fe4d050",
+    "release_sha256": "f4993a61bc5981a0a839fafd4d441cebf516621127109ee3edd9233a5fe4d050"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_time_conditioned.py",
+    "source_group": "NASA project",
+    "source_name": "test_time_conditioned.py",
+    "original_sha256": "08279eaed5842e223dbfdb57e8172c2ebddedd164ff5431910939734853c8bb8",
+    "release_sha256": "08279eaed5842e223dbfdb57e8172c2ebddedd164ff5431910939734853c8bb8"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_top18_ode.py",
+    "source_group": "NASA project",
+    "source_name": "test_top18_ode.py",
+    "original_sha256": "c756083b83cfe16d514525b90d2cff7af5b5b01e5f6c3d5e9d3f62e4b35c0410",
+    "release_sha256": "c756083b83cfe16d514525b90d2cff7af5b5b01e5f6c3d5e9d3f62e4b35c0410"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_training_subsets.py",
+    "source_group": "NASA project",
+    "source_name": "test_training_subsets.py",
+    "original_sha256": "3810a1c91160d7a8b8f81351a3fe38c6a0c3d67a89cb37e620fdae424e75bf4c",
+    "release_sha256": "c2f773d1c64651f784f766d8d3863814ffe8a1899a5754b766d511c0005c81eb"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/test_zhang.py",
+    "source_group": "NASA project",
+    "source_name": "test_zhang.py",
+    "original_sha256": "227f115e106290945e75047e80e9d6ecffddcee93b55542410c4a8f72d1d99e2",
+    "release_sha256": "227f115e106290945e75047e80e9d6ecffddcee93b55542410c4a8f72d1d99e2"
+  },
+  {
+    "file": "wear_monitoring_dynamics/tests/__init__.py",
+    "source_group": "NASA project",
+    "source_name": "__init__.py",
+    "original_sha256": "c632a2a93f0077abf79e7277e3f9aa0349db93dfcef77c817eeb468872e5d357",
+    "release_sha256": "c632a2a93f0077abf79e7277e3f9aa0349db93dfcef77c817eeb468872e5d357"
+  },
+  {
+    "file": "wear_monitoring_dynamics/training/adaptation_from100.py",
+    "source_group": "NASA project",
+    "source_name": "adaptation_from100.py",
+    "original_sha256": "48a3014d73caeda37c4beb40c98e308aa7d152764643eb7f79877df92d138569",
+    "release_sha256": "e6ff36e742934c92d8886be31ec3ffb29896b77d88b0bb3a1cc71c14655715a3"
+  },
+  {
+    "file": "wear_monitoring_dynamics/training/checkpoint.py",
+    "source_group": "NASA project",
+    "source_name": "checkpoint.py",
+    "original_sha256": "b23ab6fa558198ad0c690063b7b4008a2857432839b4389d27d89bbcc25b3d22",
+    "release_sha256": "b23ab6fa558198ad0c690063b7b4008a2857432839b4389d27d89bbcc25b3d22"
+  },
+  {
+    "file": "wear_monitoring_dynamics/training/paired.py",
+    "source_group": "NASA project",
+    "source_name": "paired.py",
+    "original_sha256": "ea6e438187d122f8c5de3fa4c4b01e567a5b978c03510085f922f0a6693ee5cc",
+    "release_sha256": "ea6e438187d122f8c5de3fa4c4b01e567a5b978c03510085f922f0a6693ee5cc"
+  },
+  {
+    "file": "wear_monitoring_dynamics/training/recursive_adaptation.py",
+    "source_group": "NASA project",
+    "source_name": "recursive_adaptation.py",
+    "original_sha256": "835495291e22018d3acb301e9fa4eb642d26e73cc0575fd0e115d91883ccf428",
+    "release_sha256": "fa7b425b3eb260a8ef5e682e438f174f1d08f98de615bbee2afecbcac280961a"
+  },
+  {
+    "file": "wear_monitoring_dynamics/training/reproducibility.py",
+    "source_group": "NASA project",
+    "source_name": "reproducibility.py",
+    "original_sha256": "18f0e45857f7221d8734bbd237460865f5168218ec50f852c3b2189b991d6261",
+    "release_sha256": "18f0e45857f7221d8734bbd237460865f5168218ec50f852c3b2189b991d6261"
+  },
+  {
+    "file": "wear_monitoring_dynamics/training/single_shot_adaptation.py",
+    "source_group": "NASA project",
+    "source_name": "single_shot_adaptation.py",
+    "original_sha256": "bc1ce64bf986ac6a9696b513f0e7bba646b953b05d8d42333bdd581ae6e66339",
+    "release_sha256": "c7410e4c4c545727d7e1ce5d24e691a84c5519561c47d34140d4ecdc499562c6"
+  },
+  {
+    "file": "wear_monitoring_dynamics/training/trainer.py",
+    "source_group": "NASA project",
+    "source_name": "trainer.py",
+    "original_sha256": "2bfe48c991847dbda9a8fa26f65ca01c4e79b271239b8fdbacb972d47b533e3d",
+    "release_sha256": "ed66a306565cdb2f0aaa858c843508ef9ffa0be4c2afee19f410a27753802649"
+  },
+  {
+    "file": "wear_monitoring_dynamics/training/__init__.py",
+    "source_group": "NASA project",
+    "source_name": "__init__.py",
+    "original_sha256": "dd088b9bb9025a23acf2ba1aff5f031d203f6dc06c2023842ade2044a1530086",
+    "release_sha256": "dd088b9bb9025a23acf2ba1aff5f031d203f6dc06c2023842ade2044a1530086"
+  },
+  {
+    "file": "release/CondWear-ODE/models/vb_sensor_condition_ode.py",
+    "source_group": "NASA project",
+    "source_name": "vb_sensor_condition_ode.py",
+    "original_sha256": "ec5bb21e635fa9e4f4f30f8feca2f9007347459d4f7b3089fad73cb634d7e0a8",
+    "release_sha256": "ec5bb21e635fa9e4f4f30f8feca2f9007347459d4f7b3089fad73cb634d7e0a8"
+  },
+  {
+    "file": "experiments/nasa_baselines/audit_final_aggregation.py",
+    "source_group": "paper research workspace",
+    "source_name": "audit_final_aggregation.py",
+    "original_sha256": "fd600c5ff1537d2a6793371193a3f0f071b8bffb52fca99e8db1b44b3de8984a",
+    "release_sha256": "fd600c5ff1537d2a6793371193a3f0f071b8bffb52fca99e8db1b44b3de8984a"
+  },
+  {
+    "file": "experiments/nasa_baselines/export_protocol.py",
+    "source_group": "paper research workspace",
+    "source_name": "export_protocol.py",
+    "original_sha256": "c2cf66bf75061a032bf43d9c3ed8982be93a6b83b85b5fa3208212a58c959a43",
+    "release_sha256": "0a0529a07bed5e39d5d5b1d5cbe2997e5a894b3238e953ee2900305ae154950f"
+  },
+  {
+    "file": "experiments/nasa_baselines/extract_ours.py",
+    "source_group": "paper research workspace",
+    "source_name": "extract_ours.py",
+    "original_sha256": "b25c9eb6039d550f9ac75de8c30b6ad469026e9639aa7179b02bc78661d7fa2b",
+    "release_sha256": "f8fb061505aacc9cdc1d64045e99a07e18c51b454b0e9ce5ad6d2bd81e67fa3c"
+  },
+  {
+    "file": "experiments/nasa_baselines/paired_summary.py",
+    "source_group": "paper research workspace",
+    "source_name": "paired_summary.py",
+    "original_sha256": "388d8702a9efc2d71eb3e6b003bdda3a89cb3ec31785033e97f43c5d94d2d399",
+    "release_sha256": "2390e14c038ca7ff19fc6fd73191f01faec575b6d5e309eb25384b1280df4a5e"
+  },
+  {
+    "file": "experiments/nasa_baselines/plot_cases.py",
+    "source_group": "paper research workspace",
+    "source_name": "plot_cases.py",
+    "original_sha256": "64c4277972a2975c2fbb16f51ba8f3a7bd65ad25ac76b3bc7690a7551b8cf66c",
+    "release_sha256": "64c4277972a2975c2fbb16f51ba8f3a7bd65ad25ac76b3bc7690a7551b8cf66c"
+  },
+  {
+    "file": "experiments/nasa_baselines/plot_internal_curves.py",
+    "source_group": "paper research workspace",
+    "source_name": "plot_internal_curves.py",
+    "original_sha256": "deea2c78273af435dcad2dbf81bce0efa0e86337a6876cb90f85119809811f94",
+    "release_sha256": "deea2c78273af435dcad2dbf81bce0efa0e86337a6876cb90f85119809811f94"
+  },
+  {
+    "file": "experiments/nasa_baselines/reconcile_fusion_results.py",
+    "source_group": "paper research workspace",
+    "source_name": "reconcile_fusion_results.py",
+    "original_sha256": "3028169acc5898dd1a35b7e8713a812a6541b5be6b3cbc87eeb3821dc6e797d3",
+    "release_sha256": "98ea8b28129b0139a5e9c9cee14de1536ace45d78a533a1b553f06aba6e43967"
+  },
+  {
+    "file": "experiments/nasa_baselines/replay_references.py",
+    "source_group": "paper research workspace",
+    "source_name": "replay_references.py",
+    "original_sha256": "82daedb9fc4dd7a9567cbde90da74e295eeb1bce637febf6edf6562a3a95e54d",
+    "release_sha256": "def62b3c5370b2875108d3746a25de89481b8c24a9b4bee711e43beee5cccec9"
+  },
+  {
+    "file": "experiments/nasa_baselines/summarize_suite.py",
+    "source_group": "paper research workspace",
+    "source_name": "summarize_suite.py",
+    "original_sha256": "408081af7d235ed5f80b60d5648b4a0920f2ece597791692c540e47de9710e8c",
+    "release_sha256": "65b6f57ef89b2637b98136c85b0929487da798a96dd9f36e885ecf66a8f42c97"
+  },
+  {
+    "file": "experiments/nasa_baselines/protocol.md",
+    "source_group": "paper research workspace",
+    "source_name": "protocol.md",
+    "original_sha256": "6f8c82e0f8b7abb008735189d6f100be3e8489b13ec93b5f815aa9bfc473c3ad",
+    "release_sha256": "6f8c82e0f8b7abb008735189d6f100be3e8489b13ec93b5f815aa9bfc473c3ad"
+  },
+  {
+    "file": "experiments/nasa_baselines/internal_protocol.md",
+    "source_group": "paper research workspace",
+    "source_name": "internal_protocol.md",
+    "original_sha256": "9f36328c4a2bfc12668da030d44eedab7a15dd030cd7a616bc8109413cb36d0f",
+    "release_sha256": "26a322964a07a8d02e4ec8223d0027920943343a03bf6c880b566bee157d44d3"
+  },
+  {
+    "file": "experiments/nasa_baselines/FULLTEXT_FINDINGS.md",
+    "source_group": "paper research workspace",
+    "source_name": "FULLTEXT_FINDINGS.md",
+    "original_sha256": "1409d3983f1dd52ff15c58e1bdaaea7d7dd7314cdf949a31ad1950d9f2c9188e",
+    "release_sha256": "9980b7a89dcbb36252fb02fb8d8f2785c22f5ed3d3fd5713c47848126a2d661c"
+  },
+  {
+    "file": "experiments/nasa_baselines/internal/audit_core.py",
+    "source_group": "paper research workspace",
+    "source_name": "audit_core.py",
+    "original_sha256": "9fd6d0c7e653af9f3195142bda314842f4f9476101e210094414057953235d15",
+    "release_sha256": "9f962628611ab76dd5178616b047b9ad2c73d48f2f583541dca20e4be48b745d"
+  },
+  {
+    "file": "experiments/nasa_baselines/internal/mechanism.py",
+    "source_group": "paper research workspace",
+    "source_name": "mechanism.py",
+    "original_sha256": "4731b36a078f684c7f60075a841c07d40c7b7dfb14f130d0c2b81c6302a78d63",
+    "release_sha256": "c238396fb7072c06d11d9377ec4730b17e2409eec0c313ecc78a2002ea5efffe"
+  },
+  {
+    "file": "experiments/nasa_baselines/internal/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "a5f8db3c3b3e9ea3530bd3c8d8c001af4aa0b5b8a74183efb72f0efd90bdabb6",
+    "release_sha256": "9a196d243d33a149d1a7c9170f53d5e7518a4dc5a8c0f18d9f3a53256396b160"
+  },
+  {
+    "file": "experiments/nasa_baselines/internal/report_internal.py",
+    "source_group": "paper research workspace",
+    "source_name": "report_internal.py",
+    "original_sha256": "c682f3efdd83f91c18d50b7fabe8f4ffd8be87fbd58a2bb7e484eb4ffafb1cd7",
+    "release_sha256": "74ba084fa5e75ed55649931978d0507159e0dd50d286e6842f6b6769b23e4c20"
+  },
+  {
+    "file": "experiments/nasa_baselines/internal/run_internal.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_internal.py",
+    "original_sha256": "aa09e843a0797977c22aa0d86df548836525bf8aad4783cd384e6c5d45ecba4f",
+    "release_sha256": "391c197b1292f483400efd9a9968c71ad5f0e392686e6894a2c3d879d747edf3"
+  },
+  {
+    "file": "experiments/nasa_baselines/internal/write_results.py",
+    "source_group": "paper research workspace",
+    "source_name": "write_results.py",
+    "original_sha256": "93118f2faf66eb266a2502481812fc0a9027fc98f9b923fed598d5a1ca9fab87",
+    "release_sha256": "4ae11065bd03f89b02c343ac34ae3f29a98bc71c2e30468115a224e3f83b6be6"
+  },
+  {
+    "file": "experiments/nasa_baselines/standard/audit_internal_targets.py",
+    "source_group": "paper research workspace",
+    "source_name": "audit_internal_targets.py",
+    "original_sha256": "1a0e4f02a28023ba575924da6a7d1e8b8f6efd813818c06c6510cb8782ce09e0",
+    "release_sha256": "1a0e4f02a28023ba575924da6a7d1e8b8f6efd813818c06c6510cb8782ce09e0"
+  },
+  {
+    "file": "experiments/nasa_baselines/standard/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "d74af1566f3915fa587e5762f273686bb8d94ab130dc35cd3e978aab5831f3bb",
+    "release_sha256": "d74af1566f3915fa587e5762f273686bb8d94ab130dc35cd3e978aab5831f3bb"
+  },
+  {
+    "file": "experiments/nasa_baselines/standard/run_standard.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_standard.py",
+    "original_sha256": "ade51c8079315c73df18a2bcb3206b03aa95c2b039c15f806504b46291391ced",
+    "release_sha256": "ade51c8079315c73df18a2bcb3206b03aa95c2b039c15f806504b46291391ced"
+  },
+  {
+    "file": "experiments/nasa_baselines/pigpr/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "e6b9185351a3b949a78ba9d0b43e04e2ed6f5a3631310bcab8c4e4e75b7a3342",
+    "release_sha256": "e6b9185351a3b949a78ba9d0b43e04e2ed6f5a3631310bcab8c4e4e75b7a3342"
+  },
+  {
+    "file": "experiments/nasa_baselines/pigpr/run_grid.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_grid.py",
+    "original_sha256": "998024f5db38e70c156c93c9a98eb990080e2b5c32bf23142aff558c132660c9",
+    "release_sha256": "998024f5db38e70c156c93c9a98eb990080e2b5c32bf23142aff558c132660c9"
+  },
+  {
+    "file": "experiments/nasa_baselines/pigpr/smoke_nasa.py",
+    "source_group": "paper research workspace",
+    "source_name": "smoke_nasa.py",
+    "original_sha256": "b24ddf4dd619a71290fa99019f92b41e4dd35055753c5d6b981f5eb6009481a4",
+    "release_sha256": "b24ddf4dd619a71290fa99019f92b41e4dd35055753c5d6b981f5eb6009481a4"
+  },
+  {
+    "file": "experiments/nasa_baselines/pigpr/sun_pigpr.py",
+    "source_group": "paper research workspace",
+    "source_name": "sun_pigpr.py",
+    "original_sha256": "514db26bddf725deb68ef4a1de8a4ebf350ad45e8f41a1d48e4488a6c77e97e8",
+    "release_sha256": "514db26bddf725deb68ef4a1de8a4ebf350ad45e8f41a1d48e4488a6c77e97e8"
+  },
+  {
+    "file": "experiments/nasa_baselines/pigpr/test_sun_pigpr.py",
+    "source_group": "paper research workspace",
+    "source_name": "test_sun_pigpr.py",
+    "original_sha256": "3ff54f46dca6d2b38393f2db31000e9eb29acbf0dbfe44c57aa4f473aee20c28",
+    "release_sha256": "3ff54f46dca6d2b38393f2db31000e9eb29acbf0dbfe44c57aa4f473aee20c28"
+  },
+  {
+    "file": "experiments/nasa_baselines/pidggcn/FORMULA_MAP.md",
+    "source_group": "paper research workspace",
+    "source_name": "FORMULA_MAP.md",
+    "original_sha256": "d218d0d7eb363646addd996d5157d9cba11b6e32e60af6707810b6f7dda92b08",
+    "release_sha256": "d218d0d7eb363646addd996d5157d9cba11b6e32e60af6707810b6f7dda92b08"
+  },
+  {
+    "file": "experiments/nasa_baselines/pidggcn/FULLTEXT_DESIGN.md",
+    "source_group": "paper research workspace",
+    "source_name": "FULLTEXT_DESIGN.md",
+    "original_sha256": "c8ea47ce44707726f939a8c7ac59480878821e3b7263ba3d30dc69e4f1bd38c8",
+    "release_sha256": "9209edace382c9573d6526c14eee0023292d4baf100923fb5e1f02f83a35c3cd"
+  },
+  {
+    "file": "experiments/nasa_baselines/pidggcn/model.py",
+    "source_group": "paper research workspace",
+    "source_name": "model.py",
+    "original_sha256": "fb4886da2368bd7b631946c81b13d46af4965bbcafcf59a5f5c6c9a7fb6b86f5",
+    "release_sha256": "fb4886da2368bd7b631946c81b13d46af4965bbcafcf59a5f5c6c9a7fb6b86f5"
+  },
+  {
+    "file": "experiments/nasa_baselines/pidggcn/profile_derivative.py",
+    "source_group": "paper research workspace",
+    "source_name": "profile_derivative.py",
+    "original_sha256": "cab697407fb54bd810869c4098ef8c3119744b539b5ae57ee9d7ec6a539ae6e3",
+    "release_sha256": "cab697407fb54bd810869c4098ef8c3119744b539b5ae57ee9d7ec6a539ae6e3"
+  },
+  {
+    "file": "experiments/nasa_baselines/pidggcn/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "fbead1d61ece4d436b504f0694fa2b56b0238aed09cf915be7db0a9ce5b9498c",
+    "release_sha256": "c6cce8756bb24a155d15bc0e0b1c83023f54ad7f9170d13bcc1cb4a5131d6088"
+  },
+  {
+    "file": "experiments/nasa_baselines/pidggcn/report_pidggcn.py",
+    "source_group": "paper research workspace",
+    "source_name": "report_pidggcn.py",
+    "original_sha256": "30ccbee423adb794663a5439bcfe93ba93411f473860f1bbe82661c2191cf207",
+    "release_sha256": "30ccbee423adb794663a5439bcfe93ba93411f473860f1bbe82661c2191cf207"
+  },
+  {
+    "file": "experiments/nasa_baselines/pidggcn/run_pidggcn.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_pidggcn.py",
+    "original_sha256": "43c9c741814226e4735b7d7f841c3256c28aab998f4a1f758b40a21c93901d2e",
+    "release_sha256": "ce83983ae31026abf7a8628c36535693b6e78d3f9f78456ecb821e9c788852f1"
+  },
+  {
+    "file": "experiments/nasa_baselines/pidggcn/smoke.py",
+    "source_group": "paper research workspace",
+    "source_name": "smoke.py",
+    "original_sha256": "6d923b5a533f0abcedbae422d84395571a7f05f1d1331623b46b40d1ee7d570e",
+    "release_sha256": "6d923b5a533f0abcedbae422d84395571a7f05f1d1331623b46b40d1ee7d570e"
+  },
+  {
+    "file": "experiments/nasa_baselines/zhang/audit_internal_outputs.py",
+    "source_group": "paper research workspace",
+    "source_name": "audit_internal_outputs.py",
+    "original_sha256": "845c6382d2ad4493785cf13f7f1b0fecd991bb8b1ddab2b6b06078aee19fb0be",
+    "release_sha256": "845c6382d2ad4493785cf13f7f1b0fecd991bb8b1ddab2b6b06078aee19fb0be"
+  },
+  {
+    "file": "experiments/nasa_baselines/zhang/model.py",
+    "source_group": "paper research workspace",
+    "source_name": "model.py",
+    "original_sha256": "d949d665f16aff8aec45c0d4930fe278b4ec48577789e61af393ef54bab6c6ed",
+    "release_sha256": "3d895e973e24580276e9f7c71a0112dc72d7133c681b163b2d4f64dcf0a8bffe"
+  },
+  {
+    "file": "experiments/nasa_baselines/zhang/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "144892c81cda144d41b1df2ffda03a9b5d35d0ba193fc69ab0e8c5172853e56a",
+    "release_sha256": "073071c50c24fed9b59950e159ac720ef827c2a6ac1b35a7481f0ceb7b40c8a7"
+  },
+  {
+    "file": "experiments/nasa_baselines/zhang/run_suite.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_suite.py",
+    "original_sha256": "18a2fe7480cb5bd1766c8a1aef33111a33dd666b386c6def4c3f571ea43d3f96",
+    "release_sha256": "c4d8131a1790e02ee332a4d440709e1f7fdc3585ee2c7677771bfb746822894d"
+  },
+  {
+    "file": "experiments/nasa_baselines/zhang/smoke.py",
+    "source_group": "paper research workspace",
+    "source_name": "smoke.py",
+    "original_sha256": "b4aaf27cba207200daca4987145e56908485eeeaace6923ddec57017d9cf508f",
+    "release_sha256": "b4aaf27cba207200daca4987145e56908485eeeaace6923ddec57017d9cf508f"
+  },
+  {
+    "file": "experiments/nasa_baselines/zhang/test_parity.py",
+    "source_group": "paper research workspace",
+    "source_name": "test_parity.py",
+    "original_sha256": "6a8e7a41e999b39121ca022f08d92a03785afc1137f3f37db1b1f0f456b17a40",
+    "release_sha256": "6a8e7a41e999b39121ca022f08d92a03785afc1137f3f37db1b1f0f456b17a40"
+  },
+  {
+    "file": "experiments/nasa_baselines/sun_lstm/FORMULA_MAP.md",
+    "source_group": "paper research workspace",
+    "source_name": "FORMULA_MAP.md",
+    "original_sha256": "7483c33ccd0ec8481a034063670840fcdb7b10c2f1d4494e1ca0dcd3a24e7c05",
+    "release_sha256": "7483c33ccd0ec8481a034063670840fcdb7b10c2f1d4494e1ca0dcd3a24e7c05"
+  },
+  {
+    "file": "experiments/nasa_baselines/sun_lstm/model.py",
+    "source_group": "paper research workspace",
+    "source_name": "model.py",
+    "original_sha256": "b98e2440febbf2f64a4e824db18e0d5d4ce4ba4e3fe6d77872c3ec98ba777216",
+    "release_sha256": "b98e2440febbf2f64a4e824db18e0d5d4ce4ba4e3fe6d77872c3ec98ba777216"
+  },
+  {
+    "file": "experiments/nasa_baselines/sun_lstm/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "808b4d32909fdff4be988c22bfcfda003cada4d6e6ed98a33bb2b82ba757e1dc",
+    "release_sha256": "808b4d32909fdff4be988c22bfcfda003cada4d6e6ed98a33bb2b82ba757e1dc"
+  },
+  {
+    "file": "experiments/nasa_baselines/sun_lstm/run_sun_lstm.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_sun_lstm.py",
+    "original_sha256": "854a84136d71e119a866fdfef5807a022a37b9fa1a2c6c2677cbea5168259c55",
+    "release_sha256": "854a84136d71e119a866fdfef5807a022a37b9fa1a2c6c2677cbea5168259c55"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/audit_all_epochs_report.py",
+    "source_group": "paper research workspace",
+    "source_name": "audit_all_epochs_report.py",
+    "original_sha256": "38cd37c198c47df58962ee6e672831c514f75398b2cab65a291c5dc3a1393aae",
+    "release_sha256": "38cd37c198c47df58962ee6e672831c514f75398b2cab65a291c5dc3a1393aae"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/batch_profile.json",
+    "source_group": "paper research workspace",
+    "source_name": "batch_profile.json",
+    "original_sha256": "4857079dfb1d6464e3db330a8076b4001d303bf50932d873403c40839d4fa55e",
+    "release_sha256": "3e10f757a3225580faafd43f06dcd9a97dbe05e7773bab5ec3c0ec20378750ea"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/FULLTEXT_MAPPING.md",
+    "source_group": "paper research workspace",
+    "source_name": "FULLTEXT_MAPPING.md",
+    "original_sha256": "517c2f7e27bbb55bbbe3f1e9026dc522f3ef7330a317ebec7bd81aec7472d6f3",
+    "release_sha256": "ae5639cf6b2a4ad37fa7052daf614078fbe3fcc3024e82ffbdedb994f9f5bc87"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/method.py",
+    "source_group": "paper research workspace",
+    "source_name": "method.py",
+    "original_sha256": "b07d2726eb1b7c47242aa8ef18ef4dd2c17de142a5d1f40b7b2a9620215a0c14",
+    "release_sha256": "b07d2726eb1b7c47242aa8ef18ef4dd2c17de142a5d1f40b7b2a9620215a0c14"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/profile_batches.py",
+    "source_group": "paper research workspace",
+    "source_name": "profile_batches.py",
+    "original_sha256": "ea20d714bdbcd937b41e54e53a8319c5c09b1461698107dbcd8356a301482168",
+    "release_sha256": "ea20d714bdbcd937b41e54e53a8319c5c09b1461698107dbcd8356a301482168"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/profile_precision.py",
+    "source_group": "paper research workspace",
+    "source_name": "profile_precision.py",
+    "original_sha256": "d11aa5544266001837caf8d3419d51300dd617da2cfcdfc4911052221acfbc85",
+    "release_sha256": "d11aa5544266001837caf8d3419d51300dd617da2cfcdfc4911052221acfbc85"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/raw_data.py",
+    "source_group": "paper research workspace",
+    "source_name": "raw_data.py",
+    "original_sha256": "44478526840f5c495645da9c8532bb8bbd73c460a6938bc3b0a2df96c1334eba",
+    "release_sha256": "5512fec44a3226347d76dd09e1b964ab85ae2250c78f0360fc51d74a4a19f613"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/readiness.py",
+    "source_group": "paper research workspace",
+    "source_name": "readiness.py",
+    "original_sha256": "e7617656df4cefbed71a3e1dd0ca0a5ffec3edd504db2dfb4711f22fbfd93003",
+    "release_sha256": "e7617656df4cefbed71a3e1dd0ca0a5ffec3edd504db2dfb4711f22fbfd93003"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "b2c26eb1433ea31354fc03b13fe25d2ef1d2c496b8c2628ab20a350ccfa4fb61",
+    "release_sha256": "1ccc958f3e9c9bac2c86b1e86df008961f03c6b00c64610051e2e1f2fa2534df"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/report_raw_ensemble.py",
+    "source_group": "paper research workspace",
+    "source_name": "report_raw_ensemble.py",
+    "original_sha256": "092a6405c5f187a9357294da0142a790ef894a4394320fe7c13b704007eb7a91",
+    "release_sha256": "092a6405c5f187a9357294da0142a790ef894a4394320fe7c13b704007eb7a91"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/run_raw_ensemble.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_raw_ensemble.py",
+    "original_sha256": "2be9fc4e3057626132aa028e5f31e86858d2174b6c6d0fac1a4981f15877e155",
+    "release_sha256": "9b1c0c0401114c5a8af3a354dc03bfee8b85161c1ef0e94c21b81a2101d7babe"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/smoke_fulltext.py",
+    "source_group": "paper research workspace",
+    "source_name": "smoke_fulltext.py",
+    "original_sha256": "0d2fed2b7bfbd7880432128442334ad6628fb1f00aeb7ddefba0e4dc95123091",
+    "release_sha256": "c71a8032ada0ccac52f13f9164392a407b3ecdbdfc00a0686cd1abd240a076c1"
+  },
+  {
+    "file": "experiments/nasa_baselines/kde/test_readiness.py",
+    "source_group": "paper research workspace",
+    "source_name": "test_readiness.py",
+    "original_sha256": "b3d0702f9af64a690f133e038f1229a46e1fc746dd698153c81fc804286fbe81",
+    "release_sha256": "b3d0702f9af64a690f133e038f1229a46e1fc746dd698153c81fc804286fbe81"
+  },
+  {
+    "file": "experiments/nasa_baselines/linear/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "7b768e8e459ba0c9014802cf2751ac0b5538b02bf5b7b93c39ff29ec573f5fe3",
+    "release_sha256": "8ea6ee8a062e256df38d96547af1b845c319b60b169b237659a5bf72afd9e44b"
+  },
+  {
+    "file": "experiments/nasa_baselines/linear/run_linear.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_linear.py",
+    "original_sha256": "f1280993a4cd8108b6c9f6ff505795355fff64b82f76642931a84f4e2cce1719",
+    "release_sha256": "f1280993a4cd8108b6c9f6ff505795355fff64b82f76642931a84f4e2cce1719"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/scripts/assemble_manuscript.py",
+    "source_group": "paper research workspace",
+    "source_name": "assemble_manuscript.py",
+    "original_sha256": "2556673a6d830133709d8f11c03ccf2bf2fa72bba91add2204611a6527453b7a",
+    "release_sha256": "2556673a6d830133709d8f11c03ccf2bf2fa72bba91add2204611a6527453b7a"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/scripts/audit_paper.py",
+    "source_group": "paper research workspace",
+    "source_name": "audit_paper.py",
+    "original_sha256": "f308f6210720fc75543325fbd842fa515489d6f3351f47fa6e1a4d31fb010e06",
+    "release_sha256": "f308f6210720fc75543325fbd842fa515489d6f3351f47fa6e1a4d31fb010e06"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/scripts/build_tables.py",
+    "source_group": "paper research workspace",
+    "source_name": "build_tables.py",
+    "original_sha256": "6fa2d6b3a12494288c58cacca2111cc6d0eaa7070a7bc6e30762c6ff72af1b7e",
+    "release_sha256": "5fc03b4532bcdacf3bb37da3d0f39025a14f6590c6485d7069a0b0a88d6ef958"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/scripts/make_figures.py",
+    "source_group": "paper research workspace",
+    "source_name": "make_figures.py",
+    "original_sha256": "c6b8c85322f714623a2bb0d3fdbe63591cc3bb994e6582258ca56ee4490878c9",
+    "release_sha256": "0f6e7d862223b2a25626f51fabf41c69ae1aa5f49681c867a228cdc992ab29ea"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/scripts/write_results.py",
+    "source_group": "paper research workspace",
+    "source_name": "write_results.py",
+    "original_sha256": "298c5e80faf9dfc21b3dbb1f87b79e411aecfdcdbfa41888bd896c1086204789",
+    "release_sha256": "3e73587881b1deb15a0b038b7c8163c5219c5eaaa65f36a8b98e387c1bdcc3f9"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/supplement_evolution_20261111/analyze.py",
+    "source_group": "paper research workspace",
+    "source_name": "analyze.py",
+    "original_sha256": "894f0a50200083d921340c15e37588f6a46ba127bd789dba52307a2ece0d748f",
+    "release_sha256": "6b8a25819dd568a50bfb0c9791539b5d18769da3b11e65208f7f4b750393fc68"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/supplement_evolution_20261111/package_data.py",
+    "source_group": "paper research workspace",
+    "source_name": "package_data.py",
+    "original_sha256": "5605b84a28e9276a6b8af034c33aa3e6f7bdc9cd9f3f75a814d8170de0c7d289",
+    "release_sha256": "5605b84a28e9276a6b8af034c33aa3e6f7bdc9cd9f3f75a814d8170de0c7d289"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/supplement_evolution_20261111/report.py",
+    "source_group": "paper research workspace",
+    "source_name": "report.py",
+    "original_sha256": "1700144d2b986f9961704d3a42c18373fde3a7f4ac16906106fb05632f984a63",
+    "release_sha256": "1700144d2b986f9961704d3a42c18373fde3a7f4ac16906106fb05632f984a63"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/supplement_evolution_20261111/verify.py",
+    "source_group": "paper research workspace",
+    "source_name": "verify.py",
+    "original_sha256": "2b126eb478618565b4019a08fc6be1cd1d7ccf21023f6caae1aad14b3bd4d311",
+    "release_sha256": "da0f437b1b156809774cd46f8ac85f32ef2f465c45eebd9c5d7e772d1000c656"
+  },
+  {
+    "file": "experiments/stiehl/analyze_tools.py",
+    "source_group": "paper research workspace",
+    "source_name": "analyze_tools.py",
+    "original_sha256": "2a26132233d1f04df594f553788042280e24f630267bebc0c11ba8a0812fbabd",
+    "release_sha256": "2a26132233d1f04df594f553788042280e24f630267bebc0c11ba8a0812fbabd"
+  },
+  {
+    "file": "experiments/stiehl/audit_preparation.py",
+    "source_group": "paper research workspace",
+    "source_name": "audit_preparation.py",
+    "original_sha256": "c92710b0cd2ac5b48b1dc6cae3386f5bed55435f23d10d944924fe1788d1c30f",
+    "release_sha256": "c92710b0cd2ac5b48b1dc6cae3386f5bed55435f23d10d944924fe1788d1c30f"
+  },
+  {
+    "file": "experiments/stiehl/check_resume.py",
+    "source_group": "paper research workspace",
+    "source_name": "check_resume.py",
+    "original_sha256": "1bb0a91592312fca2a486988f75aff266df616d05a1ca9aa85c8b49062303977",
+    "release_sha256": "1bb0a91592312fca2a486988f75aff266df616d05a1ca9aa85c8b49062303977"
+  },
+  {
+    "file": "experiments/stiehl/data_protocol.py",
+    "source_group": "paper research workspace",
+    "source_name": "data_protocol.py",
+    "original_sha256": "372e822852bea218f924a2f76df4699029d967e7bc5857593d2299eae8cc3165",
+    "release_sha256": "372e822852bea218f924a2f76df4699029d967e7bc5857593d2299eae8cc3165"
+  },
+  {
+    "file": "experiments/stiehl/execute_pipeline.py",
+    "source_group": "paper research workspace",
+    "source_name": "execute_pipeline.py",
+    "original_sha256": "513de2638f5572ae37572c1476c92b60cf07680f5f026a4778829099e0813b02",
+    "release_sha256": "513de2638f5572ae37572c1476c92b60cf07680f5f026a4778829099e0813b02"
+  },
+  {
+    "file": "experiments/stiehl/models.py",
+    "source_group": "paper research workspace",
+    "source_name": "models.py",
+    "original_sha256": "8b36992f8fb70e07bedb08fc3567f46c3cb770b7cca6dd6660be6ca1534116fa",
+    "release_sha256": "8b36992f8fb70e07bedb08fc3567f46c3cb770b7cca6dd6660be6ca1534116fa"
+  },
+  {
+    "file": "experiments/stiehl/package_delivery.py",
+    "source_group": "paper research workspace",
+    "source_name": "package_delivery.py",
+    "original_sha256": "73c6068a6c04ed672f232cb71423471780080ce580e298d91e4e04c4c463abcb",
+    "release_sha256": "73c6068a6c04ed672f232cb71423471780080ce580e298d91e4e04c4c463abcb"
+  },
+  {
+    "file": "experiments/stiehl/prepare_features.py",
+    "source_group": "paper research workspace",
+    "source_name": "prepare_features.py",
+    "original_sha256": "42e7ef6ee487f43082bdff26ce9962491bc389536afe4d874ad888fcc739431d",
+    "release_sha256": "b521aa178926a78c836610b6f474f4ae4a336dcd9763f9faf7e093ff2399a4a3"
+  },
+  {
+    "file": "experiments/stiehl/report_formal.py",
+    "source_group": "paper research workspace",
+    "source_name": "report_formal.py",
+    "original_sha256": "abb91bf6bac96e0c1fc05bb72586bd0eaf3ff0a14aae4b72ee7c2c8a9ffad7f8",
+    "release_sha256": "abb91bf6bac96e0c1fc05bb72586bd0eaf3ff0a14aae4b72ee7c2c8a9ffad7f8"
+  },
+  {
+    "file": "experiments/stiehl/report_preparation.py",
+    "source_group": "paper research workspace",
+    "source_name": "report_preparation.py",
+    "original_sha256": "0472d99a14bc6340baaee43f1db07180fccb1d0de7d7a502f19a05550fb3d015",
+    "release_sha256": "0472d99a14bc6340baaee43f1db07180fccb1d0de7d7a502f19a05550fb3d015"
+  },
+  {
+    "file": "experiments/stiehl/run_formal.py",
+    "source_group": "paper research workspace",
+    "source_name": "run_formal.py",
+    "original_sha256": "7937aae033d640e04b507a6cb1dc23984b95d7a7574fa71e74568d0068cc31e4",
+    "release_sha256": "7937aae033d640e04b507a6cb1dc23984b95d7a7574fa71e74568d0068cc31e4"
+  },
+  {
+    "file": "experiments/stiehl/smoke_test.py",
+    "source_group": "paper research workspace",
+    "source_name": "smoke_test.py",
+    "original_sha256": "75295e24160a3d57741740f16d5689f4bce91a827ab23093d61714306217a67d",
+    "release_sha256": "75295e24160a3d57741740f16d5689f4bce91a827ab23093d61714306217a67d"
+  },
+  {
+    "file": "experiments/stiehl/README.md",
+    "source_group": "paper research workspace",
+    "source_name": "README.md",
+    "original_sha256": "ae5e694c8dab7e5767cad5fde314326570969c23349b048c4824005f80604340",
+    "release_sha256": "ae5e694c8dab7e5767cad5fde314326570969c23349b048c4824005f80604340"
+  },
+  {
+    "file": "experiments/stiehl/FORMAL_RUN.md",
+    "source_group": "paper research workspace",
+    "source_name": "FORMAL_RUN.md",
+    "original_sha256": "b9bb54acfcd38828c7d207e1070cd6136681012054b3c03dececf04bd4bde93c",
+    "release_sha256": "b9bb54acfcd38828c7d207e1070cd6136681012054b3c03dececf04bd4bde93c"
+  },
+  {
+    "file": "experiments/stiehl/tool_analysis/analyze_tools.py",
+    "source_group": "paper research workspace",
+    "source_name": "analyze_tools.py",
+    "original_sha256": "2a26132233d1f04df594f553788042280e24f630267bebc0c11ba8a0812fbabd",
+    "release_sha256": "2a26132233d1f04df594f553788042280e24f630267bebc0c11ba8a0812fbabd"
+  },
+  {
+    "file": "results/paper_tables/nasa/bootstrap.csv",
+    "source_group": "paper research workspace",
+    "source_name": "bootstrap.csv",
+    "original_sha256": "f592bbb6caabfa914bd01f4415ad25e65acf9fc7a84f7e9df7e4ea03e578091a",
+    "release_sha256": "76c366f0b8f41e7d9135e838fcfe77ee74bb92afd571a769b4497f9c3a9a0e17"
+  },
+  {
+    "file": "results/paper_tables/nasa/input_parameter_budget_reference.csv",
+    "source_group": "paper research workspace",
+    "source_name": "input_parameter_budget_reference.csv",
+    "original_sha256": "ba7bd70cec1568dfe38c23b6e3b400b236dd643ab5747f5c595a80498a7f8007",
+    "release_sha256": "9655209df3a2ec553a548f3d8c5b7ef8f4472ebd0e3ba6dc1d0df9600cb13c6c"
+  },
+  {
+    "file": "results/paper_tables/nasa/method_labels.csv",
+    "source_group": "paper research workspace",
+    "source_name": "method_labels.csv",
+    "original_sha256": "86eb2dbab85018c29dd83c40ccc86fec7b1a3129bc19869d634ab1852fc4abde",
+    "release_sha256": "457cc351ac76539f484d50399dece24ff8f19603312eab98d8b8e2e80e815d2a"
+  },
+  {
+    "file": "results/paper_tables/nasa/original_fusion_reproduction.csv",
+    "source_group": "paper research workspace",
+    "source_name": "original_fusion_reproduction.csv",
+    "original_sha256": "4a891a3ef957b8492db653560b20724e088f9c269165b066fad5fbb27ca59007",
+    "release_sha256": "478ac1fb2dacabc28dc431e14ab0104cb3d70a898425dc1ddf96b3cabd3c8f66"
+  },
+  {
+    "file": "results/paper_tables/nasa/summary.csv",
+    "source_group": "paper research workspace",
+    "source_name": "summary.csv",
+    "original_sha256": "7cc381eeb2722fbed39bec0068a78d0a1a3439e5acf0a71949f0bf40ee69f966",
+    "release_sha256": "54b8334431ae43cbb9bfb1fac4e0c80d36e87dd997414e84a2390f9f49fbd629"
+  },
+  {
+    "file": "results/paper_tables/stiehl/table_main.csv",
+    "source_group": "paper research workspace",
+    "source_name": "table_main.csv",
+    "original_sha256": "fab7c4b9c8588713252845d5e918705d14ca824d33e5ac1b9bdba768512a5935",
+    "release_sha256": "57075fa4bff27aa649d78a83a50ec6c4218c7c4e168da0a05007d41c1f685dc7"
+  },
+  {
+    "file": "results/paper_tables/stiehl/table_coverage.csv",
+    "source_group": "paper research workspace",
+    "source_name": "table_coverage.csv",
+    "original_sha256": "28c375919995ddd357af535e991af81c333784753d9874fb72340363a412095b",
+    "release_sha256": "ced806e2731ca3f23ea52ad340d839fa4e716ef5c34b64c17e4693b39fbf682c"
+  },
+  {
+    "file": "results/paper_tables/stiehl/table_budget.csv",
+    "source_group": "paper research workspace",
+    "source_name": "table_budget.csv",
+    "original_sha256": "a1a5b639848e81625064ac8673eab637e7609257eb056bea57f3f5a6357f09f3",
+    "release_sha256": "34f1a309d5e6c0c1762aee8e3085cf628014634c97a274f0dda44dba8dd70d39"
+  },
+  {
+    "file": "results/paper_tables/stiehl/paired_tool_mae.csv",
+    "source_group": "paper research workspace",
+    "source_name": "paired_tool_mae.csv",
+    "original_sha256": "2221d379fab993b1fa237570a2cc162519ef94fc4d51e563208934454ac23c89",
+    "release_sha256": "5d77d9698fcd54363335fb0a65a92784e63ddaf4c0caa7172d7a3d2e13b990a5"
+  },
+  {
+    "file": "results/paper_tables/stiehl/improvement_breadth.csv",
+    "source_group": "paper research workspace",
+    "source_name": "improvement_breadth.csv",
+    "original_sha256": "050ef043bbe43585278e1bcaf2f4ebf8fad919fbac557ef5941c935310c67bb6",
+    "release_sha256": "57dbd48d9d5f504f206b569629f8d581c7d82de8c1aab8a332253d0297823ecf"
+  },
+  {
+    "file": "docs/appendix/A_quality.md",
+    "source_group": "paper research workspace",
+    "source_name": "WRITING_NOTES.md",
+    "original_sha256": "97c20340451eb57bd5330d42fd4f6692f2d3583bd5a135d90fbbf3cc26f2abe3",
+    "release_sha256": "65f5070413fa0d113772b18b0305cb23d46a723a864020edf21fd8809fe0da2a"
+  },
+  {
+    "file": "docs/appendix/B_implementation.md",
+    "source_group": "paper research workspace",
+    "source_name": "WRITING_NOTES.md",
+    "original_sha256": "08dddfc9bbbe65943b29f0deef503ed70f7107e81560706318877b1d7279d105",
+    "release_sha256": "db188912185b4f9286a2a27b14834fc036c26e0024591b5745ec1bd2d2d5ece0"
+  },
+  {
+    "file": "docs/appendix/C_evaluation.md",
+    "source_group": "paper research workspace",
+    "source_name": "WRITING_NOTES.md",
+    "original_sha256": "d3405a9a494d77cdffad08ff3ee563436354424f7d2ae808dab36c19d93dd5af",
+    "release_sha256": "b43c7f4a61b1d2725770d57bc1a6fde1dc752ca6c1732e2161ba9ce1adff8a42"
+  },
+  {
+    "file": "docs/appendix/MANUSCRIPT_CORRECTIONS.md",
+    "source_group": "paper research workspace",
+    "source_name": "MANUSCRIPT_CORRECTIONS.md",
+    "original_sha256": "3a546fc06198def6e242eab66b01ca0f67477079c8e294668c71b579c4a40b45",
+    "release_sha256": "c015a0a6d75ba52fe171418b13fb2086be73e417261f60b4dd200d5297b56d9a"
+  },
+  {
+    "file": "experiments/nasa_baselines/paper_20261110/scripts/export_figure6.py",
+    "source_group": "paper research workspace",
+    "source_name": "export_figure6.py",
+    "original_sha256": "e13f2ba98385b3a205b1802c4c658a67bb31401c2248fecaae154aeaedcdbc9b",
+    "release_sha256": "59992b9da0c6b3d4d6b39e7a9442d6bea35bc0ab30b5b6a7895046603d9d90b1"
+  }
+]

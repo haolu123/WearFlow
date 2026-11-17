@@ -1,0 +1,37 @@
+study_id: core_v1
+data:
+  path: mill_numpy/mill.npy
+  cache: wear_monitoring_dynamics/outputs/cache
+  horizons: [1, 2, 3]
+  derivative_observations: labeled
+  raw_sensor_abs_limit: 1000000.0
+output_root: wear_monitoring_dynamics/outputs
+experiment:
+  name: monitor_sct
+  seed: 0
+  fold: fold_a
+  role: inner
+  holdout: 8
+monitor:
+  architecture: mlp
+  inputs: [sensor, condition, time]
+  hidden_dims: [64, 32]
+dynamics:
+  mode: none
+  hidden_dim: 32
+  nonnegative_rate: true
+  rk4_steps: 20
+  pretrain_epochs: 100
+  pretrain_seed: 0
+  checkpoint: null
+loss:
+  monitoring_weight: 1.0
+  derivative_weight: 0.0
+  forecasting_weight: 0.0
+training:
+  device: cuda
+  epochs: 200
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  deterministic: true
+  warmup_epochs: 2
