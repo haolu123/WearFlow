@@ -1,0 +1,6 @@
+method,fits,final_fits,inner_fits,epochs_per_fit,effective_parameters,training_inputs,seconds,training_records
+time,54,45,9,100.0,2241.0,time,51.17006070114439,"all training tools, tool-equal losses"
+current,54,45,9,100.0,3009.0,12 train-ranked force features + time,106.3242581015802,"all training tools, tool-equal losses"
+local,54,45,9,100.0,4162.0,12 train-ranked force features + time,1042.6946126021212,"all training tools, tool-equal losses"
+integral,54,45,9,100.0,4162.0,12 train-ranked force features + time,2338.9177764010965,"all training tools, tool-equal losses"
+gpr,18,9,9,,,same 12 features + time,24.03870390006341,at most 128 per tool; exact GPR kernel marginal likelihood optimization

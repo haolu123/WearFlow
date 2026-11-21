@@ -1,0 +1,17 @@
+fold,start_kind,source,monotone,alpha,validation_mae,method
+fold_a,first_labeled,ct,False,0.5,0.08596662705516937,ct_a0.5_m0
+fold_a,first_labeled,ct,True,0.75,0.08026938914529212,ct_a0.75_m1
+fold_a,first_labeled,sensor,False,1.0,0.11617220448108859,sensor_a1_m0
+fold_a,first_labeled,sensor,True,1.0,0.11595320676822404,sensor_a1_m1
+fold_a,first_record,ct,False,0.5,0.08596662705516937,ct_a0.5_m0
+fold_a,first_record,ct,True,0.75,0.08026938914529212,ct_a0.75_m1
+fold_a,first_record,sensor,False,1.0,0.11617220448108859,sensor_a1_m0
+fold_a,first_record,sensor,True,1.0,0.11595320676822404,sensor_a1_m1
+fold_b,first_labeled,ct,False,0.25,0.15001014707714694,ct_a0.25_m0
+fold_b,first_labeled,ct,True,1.0,0.133547123699312,ct_a1_m1
+fold_b,first_labeled,sensor,False,1.0,0.12840923638359247,sensor_a1_m0
+fold_b,first_labeled,sensor,True,1.0,0.12838684186108512,sensor_a1_m1
+fold_b,first_record,ct,False,0.0,0.13632532594282856,ct_a0_m0
+fold_b,first_record,ct,True,0.0,0.13632532594282856,ct_a0_m1
+fold_b,first_record,sensor,False,0.25,0.1251853815865273,sensor_a0.25_m0
+fold_b,first_record,sensor,True,0.25,0.12485252020170694,sensor_a0.25_m1

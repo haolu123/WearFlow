@@ -1,0 +1,16 @@
+﻿fold,dt_bin,dt_support,horizon,pairs,cases,dt_min,dt_max
+fold_a,long,within_train,1,1,1,13.0,13.0
+fold_a,long,within_train,2,13,4,13.0,18.0
+fold_a,long,within_train,3,33,4,13.0,24.0
+fold_a,medium,within_train,1,9,4,7.0,12.0
+fold_a,medium,within_train,2,34,6,7.0,12.0
+fold_a,medium,within_train,3,17,3,7.0,12.0
+fold_a,short,within_train,1,54,7,2.0,6.0
+fold_a,short,within_train,2,10,4,4.0,6.0
+fold_b,long,within_train,2,6,3,13.0,18.0
+fold_b,long,within_train,3,22,4,15.0,24.0
+fold_b,medium,within_train,1,6,4,7.0,12.0
+fold_b,medium,within_train,2,25,5,7.0,12.0
+fold_b,medium,within_train,3,14,4,9.0,11.0
+fold_b,short,within_train,1,44,7,2.0,6.0
+fold_b,short,within_train,2,12,4,5.0,6.0

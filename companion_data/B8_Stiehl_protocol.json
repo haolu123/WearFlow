@@ -1,0 +1,40 @@
+{
+  "evaluation": "published potentially interpolated wear labels",
+  "alignment": "previous completed run sensor -> next start VB",
+  "horizons_seconds": [
+    240,
+    480,
+    720
+  ],
+  "max_matching_lag_seconds": 30,
+  "time_scale_seconds": 1000,
+  "wear_units": "mm",
+  "rank_top_k": 12,
+  "monitor_hidden": [
+    64,
+    32
+  ],
+  "rate_hidden": [
+    32,
+    32
+  ],
+  "condition_inputs": [],
+  "loss_reduction": "tool equal",
+  "auxiliary_weight": 1,
+  "epochs": 100,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "rk4_steps": 20,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "training": "cold start, no rate pretraining",
+  "outer_split": "leave one tool out",
+  "inner_split": "previous tool in same machine cyclic; one fixed diagnostic split",
+  "checkpoint_selection": "last epoch",
+  "statistics": "average seeds within each tool before paired tool bootstrap"
+}

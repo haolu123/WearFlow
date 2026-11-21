@@ -1,0 +1,9 @@
+﻿fold,partition,stage,total,valid,invalid,labeled,valid_labeled,invalid_labeled
+fold_a,train,raw_before_quarantine,72,71,1,65,64,1
+fold_a,train,retained_after_quarantine,71,71,0,64,64,0
+fold_a,test,raw_before_quarantine,87,86,1,74,74,0
+fold_a,test,retained_after_quarantine,87,86,1,74,74,0
+fold_b,train,raw_before_quarantine,87,86,1,74,74,0
+fold_b,train,retained_after_quarantine,87,86,1,74,74,0
+fold_b,test,raw_before_quarantine,72,71,1,65,64,1
+fold_b,test,retained_after_quarantine,71,71,0,64,64,0

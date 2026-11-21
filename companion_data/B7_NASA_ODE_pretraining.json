@@ -1,0 +1,56 @@
+[
+  {
+    "fold": "fold_a",
+    "epoch": 500,
+    "source": "D:\\projects\\NASA_Milling_Wear\\wear_monitoring_dynamics\\outputs\\history_quality_skip_20261008\\runs\\ode_pretrain\\fold_a\\final\\seed_0\\fac642d095e9\\last.pt",
+    "training": {
+      "device": "cuda",
+      "epochs": 500,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "deterministic": true,
+      "warmup_epochs": 2,
+      "record_all_epoch_splits": true,
+      "final_full_curve": true,
+      "save_final_epoch_checkpoints": true,
+      "fixed_final_epoch": true,
+      "selection_epoch": 500
+    },
+    "dynamics": {
+      "mode": "none",
+      "hidden_dim": 32,
+      "nonnegative_rate": true,
+      "rk4_steps": 20,
+      "pretrain_epochs": 500,
+      "pretrain_seed": 0,
+      "checkpoint": null
+    }
+  },
+  {
+    "fold": "fold_b",
+    "epoch": 500,
+    "source": "D:\\projects\\NASA_Milling_Wear\\wear_monitoring_dynamics\\outputs\\history_quality_skip_20261008\\runs\\ode_pretrain\\fold_b\\final\\seed_0\\4a41203305ba\\last.pt",
+    "training": {
+      "device": "cuda",
+      "epochs": 500,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "deterministic": true,
+      "warmup_epochs": 2,
+      "record_all_epoch_splits": true,
+      "final_full_curve": true,
+      "save_final_epoch_checkpoints": true,
+      "fixed_final_epoch": true,
+      "selection_epoch": 500
+    },
+    "dynamics": {
+      "mode": "none",
+      "hidden_dim": 32,
+      "nonnegative_rate": true,
+      "rk4_steps": 20,
+      "pretrain_epochs": 500,
+      "pretrain_seed": 0,
+      "checkpoint": null
+    }
+  }
+]

@@ -1,0 +1,52 @@
+﻿index,feature,channel,formula
+0,force_x_mean,force_x,mean(x)
+1,force_x_std,force_x,population std
+2,force_x_rms,force_x,sqrt(mean(x^2))
+3,force_x_ptp,force_x,max-min
+4,force_x_median,force_x,median(x)
+5,force_x_iqr,force_x,Q75-Q25
+6,force_x_skew,force_x,scipy.stats.skew default bias=True
+7,force_x_kurtosis,force_x,"scipy.stats.kurtosis default fisher=True, bias=True; excess kurtosis"
+8,force_x_crest,force_x,"max(abs(x))/max(RMS,1e-12)"
+9,force_x_power_0_250,force_x,sum(P[k])*df for 0 <= f < 250
+10,force_x_power_250_500,force_x,sum(P[k])*df for 250 <= f < 500
+11,force_x_power_500_1000,force_x,sum(P[k])*df for 500 <= f < 1000
+12,force_x_power_1000_2000,force_x,sum(P[k])*df for 1000 <= f < 2000
+13,force_x_power_2000_5000,force_x,sum(P[k])*df for 2000 <= f < 5000
+14,force_x_power_5000_10000,force_x,sum(P[k])*df for 5000 <= f < 10000
+15,force_x_centroid,force_x,sum(f*P/sum(P))
+16,force_x_entropy,force_x,"-sum(q*log(q+1e-30))/log(len(q)), includes DC"
+17,force_y_mean,force_y,mean(x)
+18,force_y_std,force_y,population std
+19,force_y_rms,force_y,sqrt(mean(x^2))
+20,force_y_ptp,force_y,max-min
+21,force_y_median,force_y,median(x)
+22,force_y_iqr,force_y,Q75-Q25
+23,force_y_skew,force_y,scipy.stats.skew default bias=True
+24,force_y_kurtosis,force_y,"scipy.stats.kurtosis default fisher=True, bias=True; excess kurtosis"
+25,force_y_crest,force_y,"max(abs(x))/max(RMS,1e-12)"
+26,force_y_power_0_250,force_y,sum(P[k])*df for 0 <= f < 250
+27,force_y_power_250_500,force_y,sum(P[k])*df for 250 <= f < 500
+28,force_y_power_500_1000,force_y,sum(P[k])*df for 500 <= f < 1000
+29,force_y_power_1000_2000,force_y,sum(P[k])*df for 1000 <= f < 2000
+30,force_y_power_2000_5000,force_y,sum(P[k])*df for 2000 <= f < 5000
+31,force_y_power_5000_10000,force_y,sum(P[k])*df for 5000 <= f < 10000
+32,force_y_centroid,force_y,sum(f*P/sum(P))
+33,force_y_entropy,force_y,"-sum(q*log(q+1e-30))/log(len(q)), includes DC"
+34,force_z_mean,force_z,mean(x)
+35,force_z_std,force_z,population std
+36,force_z_rms,force_z,sqrt(mean(x^2))
+37,force_z_ptp,force_z,max-min
+38,force_z_median,force_z,median(x)
+39,force_z_iqr,force_z,Q75-Q25
+40,force_z_skew,force_z,scipy.stats.skew default bias=True
+41,force_z_kurtosis,force_z,"scipy.stats.kurtosis default fisher=True, bias=True; excess kurtosis"
+42,force_z_crest,force_z,"max(abs(x))/max(RMS,1e-12)"
+43,force_z_power_0_250,force_z,sum(P[k])*df for 0 <= f < 250
+44,force_z_power_250_500,force_z,sum(P[k])*df for 250 <= f < 500
+45,force_z_power_500_1000,force_z,sum(P[k])*df for 500 <= f < 1000
+46,force_z_power_1000_2000,force_z,sum(P[k])*df for 1000 <= f < 2000
+47,force_z_power_2000_5000,force_z,sum(P[k])*df for 2000 <= f < 5000
+48,force_z_power_5000_10000,force_z,sum(P[k])*df for 5000 <= f < 10000
+49,force_z_centroid,force_z,sum(f*P/sum(P))
+50,force_z_entropy,force_z,"-sum(q*log(q+1e-30))/log(len(q)), includes DC"

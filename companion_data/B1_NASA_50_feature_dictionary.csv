@@ -1,0 +1,51 @@
+﻿archive_index,feature,channel,domain,formula
+0,smcAC_mean,smcAC,time,mean(x)
+1,smcAC_std,smcAC,time,sqrt(mean((x-mean(x))^2))
+2,smcAC_rms,smcAC,time,sqrt(mean(x^2))
+3,smcAC_min,smcAC,time,min(x)
+4,smcAC_max,smcAC,time,max(x)
+5,smcAC_peak_to_peak,smcAC,time,max(x)-min(x)
+6,smcAC_skewness,smcAC,time,mean(((x-mean(x))/std(x))^3)
+7,smcAC_kurtosis,smcAC,time,mean(((x-mean(x))/std(x))^4); non-excess
+8,smcAC_energy,smcAC,time,mean(x^2); equals RMS^2
+9,smcDC_mean,smcDC,time,mean(x)
+10,smcDC_std,smcDC,time,sqrt(mean((x-mean(x))^2))
+11,smcDC_rms,smcDC,time,sqrt(mean(x^2))
+12,smcDC_min,smcDC,time,min(x)
+13,smcDC_max,smcDC,time,max(x)
+14,smcDC_peak_to_peak,smcDC,time,max(x)-min(x)
+15,smcDC_skewness,smcDC,time,mean(((x-mean(x))/std(x))^3)
+16,smcDC_kurtosis,smcDC,time,mean(((x-mean(x))/std(x))^4); non-excess
+17,smcDC_energy,smcDC,time,mean(x^2); equals RMS^2
+54,smcAC_psd_ac_power,smcAC,frequency,"sum(P[k])*df, all frequency bins after segment mean detrending; DC bin not manually removed"
+55,smcAC_psd_centroid_hz,smcAC,frequency,"sum(f[k]*q[k]), q=P/sum(P), includes DC"
+56,smcAC_psd_bandwidth_hz,smcAC,frequency,sqrt(sum((f[k]-centroid)^2*q[k]))
+57,smcAC_psd_entropy,smcAC,frequency,-sum(w*log(w+1e-300))/log(N_nonDC); w=P[1:]/sum(P[1:])
+58,smcAC_psd_flatness,smcAC,frequency,exp(mean(log(P[1:]+1e-300)))/mean(P[1:])
+59,smcAC_psd_peak_hz,smcAC,frequency,f[1:][argmax(P[1:])]
+60,smcAC_psd_band_0_5_fraction,smcAC,frequency,sum(q[k]) over 0 <= f < 5
+61,smcAC_psd_band_0_5_power,smcAC,frequency,sum(P[k])*df over 0 <= f < 5
+62,smcAC_psd_band_5_15_fraction,smcAC,frequency,sum(q[k]) over 5 <= f < 15
+63,smcAC_psd_band_5_15_power,smcAC,frequency,sum(P[k])*df over 5 <= f < 15
+64,smcAC_psd_band_15_30_fraction,smcAC,frequency,sum(q[k]) over 15 <= f < 30
+65,smcAC_psd_band_15_30_power,smcAC,frequency,sum(P[k])*df over 15 <= f < 30
+66,smcAC_psd_band_30_60_fraction,smcAC,frequency,sum(q[k]) over 30 <= f < 60
+67,smcAC_psd_band_30_60_power,smcAC,frequency,sum(P[k])*df over 30 <= f < 60
+68,smcAC_psd_band_60_125_fraction,smcAC,frequency,sum(q[k]) over 60 <= f <= 125
+69,smcAC_psd_band_60_125_power,smcAC,frequency,sum(P[k])*df over 60 <= f <= 125
+70,smcDC_psd_ac_power,smcDC,frequency,"sum(P[k])*df, all frequency bins after segment mean detrending; DC bin not manually removed"
+71,smcDC_psd_centroid_hz,smcDC,frequency,"sum(f[k]*q[k]), q=P/sum(P), includes DC"
+72,smcDC_psd_bandwidth_hz,smcDC,frequency,sqrt(sum((f[k]-centroid)^2*q[k]))
+73,smcDC_psd_entropy,smcDC,frequency,-sum(w*log(w+1e-300))/log(N_nonDC); w=P[1:]/sum(P[1:])
+74,smcDC_psd_flatness,smcDC,frequency,exp(mean(log(P[1:]+1e-300)))/mean(P[1:])
+75,smcDC_psd_peak_hz,smcDC,frequency,f[1:][argmax(P[1:])]
+76,smcDC_psd_band_0_5_fraction,smcDC,frequency,sum(q[k]) over 0 <= f < 5
+77,smcDC_psd_band_0_5_power,smcDC,frequency,sum(P[k])*df over 0 <= f < 5
+78,smcDC_psd_band_5_15_fraction,smcDC,frequency,sum(q[k]) over 5 <= f < 15
+79,smcDC_psd_band_5_15_power,smcDC,frequency,sum(P[k])*df over 5 <= f < 15
+80,smcDC_psd_band_15_30_fraction,smcDC,frequency,sum(q[k]) over 15 <= f < 30
+81,smcDC_psd_band_15_30_power,smcDC,frequency,sum(P[k])*df over 15 <= f < 30
+82,smcDC_psd_band_30_60_fraction,smcDC,frequency,sum(q[k]) over 30 <= f < 60
+83,smcDC_psd_band_30_60_power,smcDC,frequency,sum(P[k])*df over 30 <= f < 60
+84,smcDC_psd_band_60_125_fraction,smcDC,frequency,sum(q[k]) over 60 <= f <= 125
+85,smcDC_psd_band_60_125_power,smcDC,frequency,sum(P[k])*df over 60 <= f <= 125
